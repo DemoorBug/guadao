@@ -1,0 +1,30 @@
+{
+  "name": "guadao",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Steam 市场与 Buff 数据抓取与时序化存储，用于 Chart.js 可视化",
+  "type": "module",
+  "engines": {
+    "node": ">=18.18"
+  },
+  "scripts": {
+    "update": "node src/update.js",
+    "start": "node src/update.js",
+    "test-fetch": "node src/dev/test-fetcher.js"
+  },
+  "keywords": [
+    "steam",
+    "buff",
+    "market",
+    "price",
+    "chartjs",
+    "timeseries"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "undici": "^6.19.8"
+  }
+}
+
+

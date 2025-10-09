@@ -1,0 +1,44 @@
+name: Update market data hourly
+
+on:
+  schedule:
+    - cron: '0 * * * *' # 每小时整点
+  workflow_dispatch: {}
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Run update script
+        env:
+          BUFF_API_KEY: ${{ secrets.BUFF_API_KEY }}
+          BUFF_BASE_URL: ${{ secrets.BUFF_BASE_URL }}
+          STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
+          STEAM_BASE_URL: ${{ secrets.STEAM_BASE_URL }}
+        run: |
+          npm run update
+
+      - name: Commit and push changes
+        run: |
+          if ! git diff --quiet; then
+            git add data/data.json
+            git commit -m "chore: hourly data update $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+            git push
+          else
+            echo "No changes"
+          fi
+
+
