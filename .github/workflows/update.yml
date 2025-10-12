@@ -1,9 +1,14 @@
-name: Update market data hourly
+name: Update market data and deploy to GitHub Pages
 
 on:
   schedule:
     - cron: '0 * * * *' # 每小时整点
   workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   update:
@@ -24,21 +29,45 @@ jobs:
 
       - name: Run update script
         env:
-          BUFF_API_KEY: ${{ secrets.BUFF_API_KEY }}
-          BUFF_BASE_URL: ${{ secrets.BUFF_BASE_URL }}
-          STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
-          STEAM_BASE_URL: ${{ secrets.STEAM_BASE_URL }}
+          BUFF_COOKIE_1: ${{ secrets.BUFF_COOKIE_1 }}
+          BUFF_COOKIE_2: ${{ secrets.BUFF_COOKIE_2 }}
+          BUFF_COOKIE_3: ${{ secrets.BUFF_COOKIE_3 }}
+          BUFF_COOKIE_4: ${{ secrets.BUFF_COOKIE_4 }}
+          BUFF_COOKIE: ${{ secrets.BUFF_COOKIE }}
+          STEAM_COOKIE: ${{ secrets.STEAM_COOKIE }}
         run: |
           npm run update
 
       - name: Commit and push changes
         run: |
           if ! git diff --quiet; then
-            git add data/data.json
-            git commit -m "chore: hourly data update $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+            git add data/data.json public/index.html
+            git commit -m "chore: hourly data update and static page generation $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
             git push
           else
             echo "No changes"
           fi
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: update
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './public'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 
 
