@@ -7,18 +7,68 @@ import { createModuleLogger } from '../utils/logger.js';
  * 返回：Map<id, priceNumber>
  */
 export async function fetchBuffPrices(itemName, options = {}) {
-  const { cookie = process.env.BUFF_COOKIE } = options;
+  const { cookieIndex = 0 } = options;
   const result = new Map();
   
   // 使用统一的日志控制
   const logger = createModuleLogger('BUFF', options);
   
   // 代理支持
-  await import('../utils/proxy.js');
+  // await import('../utils/proxy.js');
   
+  // 获取多 Cookie 配置
+  const getBuffCookies = () => {
+    const cookies = [];
+    
+    // 检查第一个 Cookie
+    if (process.env.BUFF_COOKIE_1) {
+      cookies.push(process.env.BUFF_COOKIE_1);
+    }
+    
+    // 检查第二个 Cookie
+    if (process.env.BUFF_COOKIE_2) {
+      cookies.push(process.env.BUFF_COOKIE_2);
+    }
+    
+    // 检查第三个 Cookie
+    if (process.env.BUFF_COOKIE_3) {
+      cookies.push(process.env.BUFF_COOKIE_3);
+    }
+    
+    // 检查第四个 Cookie
+    if (process.env.BUFF_COOKIE_4) {
+      cookies.push(process.env.BUFF_COOKIE_4);
+    }
+    
+    // 如果没有设置任何 Cookie，使用默认的 BUFF_COOKIE
+    if (cookies.length === 0) {
+      if (process.env.BUFF_COOKIE) {
+        cookies.push(process.env.BUFF_COOKIE);
+      } else {
+        logger.warn('未设置任何 BUFF_COOKIE 环境变量');
+        return [''];
+      }
+    }
+    
+    return cookies;
+  };
+  
+  // 获取当前使用的 Cookie
+  const getCurrentCookie = () => {
+    const cookies = getBuffCookies();
+    if (cookies.length === 0) return '';
+    return cookies[cookieIndex % cookies.length];
+  };
+  
+  const currentCookie = getCurrentCookie();
+  const availableCookieCount = getBuffCookies().length;
+  // console.log('availableCookieCount', availableCookieCount);
+  // console.log('cookieIndex', cookieIndex);
+  logger.log(`使用 Cookie 索引 ${cookieIndex}/${availableCookieCount}: ${currentCookie.substring(0, 50)}...`);
+
   // 公共 headers 配置
   const getHeaders = () => ({
-    'Cookie': cookie || '',
+    'Cookie': getCurrentCookie(),
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     'Accept': 'application/json, text/plain, */*',
     'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
@@ -123,6 +173,7 @@ export async function fetchBuffPrices(itemName, options = {}) {
           // 存储详细的对象信息
           const resultData = {
             price: minPrice,
+            goods_id: goodsId,
             orders: orders,
             orders_count: orders.length,
             latest_order: orders[0], // 最新的订单（通常是第一个）
@@ -165,29 +216,29 @@ export async function fetchBuffPrices(itemName, options = {}) {
 }
 
 // 测试代码
-fetchBuffPrices('M4A1 消音型 | 女火神之炽焰 (略有磨损)').then(result => {
-  console.log('\n=== Buff 价格结果 ===');
-  console.log('Map 大小:', result.size);
-  console.log('所有条目:');
+// fetchBuffPrices('M4A1 消音型 | 女火神之炽焰 (略有磨损)').then(result => {
+//   console.log('\n=== Buff 价格结果 ===');
+//   console.log('Map 大小:', result.size);
+//   console.log('所有条目:');
   
-  if (result.size === 0) {
-    console.log('  (无数据)');
-  } else {
-    for (const [key, value] of result.entries()) {
-      console.log(`\n物品: "${key}"`);
-      console.log('  价格:', value.price);
-      console.log('  订单数量:', value.orders_count);
-      console.log('  数据源:', value.source || 'sell_order');
-      if (value.orders && value.orders.length > 0) {
-        console.log('  最新订单时间:', value.latest_order?.created_at_beijing);
-        console.log('  最旧订单时间:', value.oldest_order?.created_at_beijing);
-      }
-      if (value.steam_price) {
-        console.log('  Steam 价格:', value.steam_price);
-      }
-    }
-  }
+//   if (result.size === 0) {
+//     console.log('  (无数据)');
+//   } else {
+//     for (const [key, value] of result.entries()) {
+//       console.log(`\n物品: "${key}"`);
+//       console.log('  价格:', value.price);
+//       console.log('  订单数量:', value.orders_count);
+//       console.log('  数据源:', value.source || 'sell_order');
+//       if (value.orders && value.orders.length > 0) {
+//         console.log('  最新订单时间:', value.latest_order?.created_at_beijing);
+//         console.log('  最旧订单时间:', value.oldest_order?.created_at_beijing);
+//       }
+//       if (value.steam_price) {
+//         console.log('  Steam 价格:', value.steam_price);
+//       }
+//     }
+//   }
   
-  console.log('\n完整 Map 对象:');
-  console.log(JSON.stringify(Object.fromEntries(result), null, 2));
-});
+//   console.log('\n完整 Map 对象:');
+//   console.log(JSON.stringify(Object.fromEntries(result), null, 2));
+// });
