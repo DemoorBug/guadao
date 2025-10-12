@@ -1,4 +1,137 @@
 [
+  {
+    "id": 1,
+    "name": "2025年奥斯汀锦标赛荒漠迷城高光纪念包",
+    "buff_link": "https://buff.163.com/goods/1118071?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Austin%202025%20Mirage%20Souvenir%20Highlight%20Package",
+    "prices": [
+      {
+        "steam_price": 47.66,
+        "buff_price": 27.88,
+        "buff_username": "韭菜八十八号仓",
+        "timestamp": "2025-10-12T14:03:31.759Z",
+        "ratio": 0.6882
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "手套武器箱",
+    "buff_link": "https://buff.163.com/goods/35086?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Glove%20Case",
+    "prices": [
+      {
+        "steam_price": 105.85,
+        "buff_price": 87,
+        "buff_username": "U16788684672",
+        "timestamp": "2025-10-12T14:03:36.754Z",
+        "ratio": 0.967
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "裂空武器箱",
+    "buff_link": "https://buff.163.com/goods/781534?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Fracture%20Case",
+    "prices": [
+      {
+        "steam_price": 5.57,
+        "buff_price": 3.99,
+        "buff_username": "秒秒喵喵喵店",
+        "timestamp": "2025-10-12T14:03:41.614Z",
+        "ratio": 0.8428
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "梦魇武器箱",
+    "buff_link": "https://buff.163.com/goods/886606?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Dreams%20%26%20Nightmares%20Case",
+    "prices": [
+      {
+        "steam_price": 14.67,
+        "buff_price": 11,
+        "buff_username": "U02166786167",
+        "timestamp": "2025-10-12T14:03:45.749Z",
+        "ratio": 0.8822
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "反冲武器箱",
+    "buff_link": "https://buff.163.com/goods/900464?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Recoil%20Case",
+    "prices": [
+      {
+        "steam_price": 3.5,
+        "buff_price": 2.49,
+        "buff_username": "U23262098489",
+        "timestamp": "2025-10-12T14:03:50.508Z",
+        "ratio": 0.837
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "变革武器箱",
+    "buff_link": "https://buff.163.com/goods/921379?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Revolution%20Case",
+    "prices": [
+      {
+        "steam_price": 4.53,
+        "buff_price": 3.29,
+        "buff_username": "有理想的白日梦",
+        "timestamp": "2025-10-12T14:03:53.280Z",
+        "ratio": 0.8544
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "千瓦武器箱",
+    "buff_link": "https://buff.163.com/goods/956398?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Kilowatt%20Case",
+    "prices": [
+      {
+        "steam_price": 3.97,
+        "buff_price": 2.82,
+        "buff_username": "啊啊的小店",
+        "timestamp": "2025-10-12T14:03:58.325Z",
+        "ratio": 0.8357
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "热潮武器箱",
+    "buff_link": "https://buff.163.com/goods/1115500?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Fever%20Case",
+    "prices": [
+      {
+        "steam_price": 8.05,
+        "buff_price": 6.75,
+        "buff_username": "看看看主页",
+        "timestamp": "2025-10-12T14:04:03.494Z",
+        "ratio": 0.9865
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "画廊武器箱",
+    "buff_link": "https://buff.163.com/goods/967941?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Gallery%20Case",
+    "prices": [
+      {
+        "steam_price": 13.97,
+        "buff_price": 10.9,
+        "buff_username": "解忧杂货二号铺",
+        "timestamp": "2025-10-12T14:04:06.559Z",
+        "ratio": 0.9179
+      }
+    ]
+  }
 ]
-
-
