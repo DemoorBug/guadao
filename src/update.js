@@ -32,6 +32,19 @@ async function main() {
   const dataPath = path.join(root, 'data', 'data.json');
 
   logger.log('开始获取 Steam 和 Buff 数据...');
+  logger.log('当前工作目录:', process.cwd());
+  logger.log('项目根目录:', root);
+  logger.log('数据文件路径:', dataPath);
+  
+  // 检查环境变量
+  logger.log('环境变量检查:');
+  logger.log('- GITHUB_ACTIONS:', process.env.GITHUB_ACTIONS);
+  logger.log('- BUFF_COOKIE_1 存在:', !!process.env.BUFF_COOKIE_1);
+  logger.log('- BUFF_COOKIE_2 存在:', !!process.env.BUFF_COOKIE_2);
+  logger.log('- BUFF_COOKIE_3 存在:', !!process.env.BUFF_COOKIE_3);
+  logger.log('- BUFF_COOKIE_4 存在:', !!process.env.BUFF_COOKIE_4);
+  logger.log('- BUFF_COOKIE 存在:', !!process.env.BUFF_COOKIE);
+  logger.log('- STEAM_COOKIE 存在:', !!process.env.STEAM_COOKIE);
   
   // 获取完整数据
   const newData = await fetchSteamAndBuffData();
@@ -84,7 +97,11 @@ async function main() {
 
 
 main().catch((err) => {
-  logger.error(err);
+  console.error('=== 错误详情 ===');
+  console.error('错误类型:', err.constructor.name);
+  console.error('错误消息:', err.message);
+  console.error('错误堆栈:', err.stack);
+  logger.error('更新脚本执行失败:', err);
   process.exitCode = 1;
 });
 
