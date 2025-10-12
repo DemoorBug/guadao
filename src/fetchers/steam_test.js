@@ -243,7 +243,7 @@ async function processBuffData(steamData) {
 
 // 导出函数供其他模块使用
 export async function fetchSteamAndBuffData() {
-  // 代理支持
+  // 条件代理支持（本地启用，GitHub Actions禁用）
   await import('../utils/proxy.js');
   
   // 从 items.json 加载配置

@@ -13,8 +13,8 @@ export async function fetchBuffPrices(itemName, options = {}) {
   // 使用统一的日志控制
   const logger = createModuleLogger('BUFF', options);
   
-  // 代理支持
-  // await import('../utils/proxy.js');
+  // 条件代理支持（本地启用，GitHub Actions禁用）
+  await import('../utils/proxy.js');
   
   // 获取多 Cookie 配置
   const getBuffCookies = () => {

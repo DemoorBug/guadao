@@ -35,7 +35,7 @@ function generateHtmlContent(data) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSGO 价格监控图表</title>
+    <title>价格监控图表</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body {
