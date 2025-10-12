@@ -31,33 +31,61 @@ async function main() {
   const root = path.resolve(__dirname, '..');
   const dataPath = path.join(root, 'data', 'data.json');
 
-  logger.log('开始获取 Steam 和 Buff 数据...');
-  logger.log('当前工作目录:', process.cwd());
-  logger.log('项目根目录:', root);
-  logger.log('数据文件路径:', dataPath);
+  // 在GitHub Actions中强制启用调试模式
+  const isGitHubActions = process.env.GITHUB_ACTIONS === 'true';
+  if (isGitHubActions) {
+    process.env.DEBUG = 'true';
+    console.log('[GitHub Actions] 强制启用DEBUG模式');
+  }
+
+  console.log('=== 开始获取 Steam 和 Buff 数据 ===');
+  console.log('当前工作目录:', process.cwd());
+  console.log('项目根目录:', root);
+  console.log('数据文件路径:', dataPath);
+  console.log('DEBUG 模式:', process.env.DEBUG);
+  console.log('GitHub Actions:', isGitHubActions);
   
   // 检查环境变量
-  logger.log('环境变量检查:');
-  logger.log('- GITHUB_ACTIONS:', process.env.GITHUB_ACTIONS);
-  logger.log('- BUFF_COOKIE_1 存在:', !!process.env.BUFF_COOKIE_1);
-  logger.log('- BUFF_COOKIE_2 存在:', !!process.env.BUFF_COOKIE_2);
-  logger.log('- BUFF_COOKIE_3 存在:', !!process.env.BUFF_COOKIE_3);
-  logger.log('- BUFF_COOKIE_4 存在:', !!process.env.BUFF_COOKIE_4);
-  logger.log('- BUFF_COOKIE 存在:', !!process.env.BUFF_COOKIE);
-  logger.log('- STEAM_COOKIE 存在:', !!process.env.STEAM_COOKIE);
+  console.log('=== 环境变量检查 ===');
+  console.log('- GITHUB_ACTIONS:', process.env.GITHUB_ACTIONS);
+  console.log('- BUFF_COOKIE_1 存在:', !!process.env.BUFF_COOKIE_1);
+  console.log('- BUFF_COOKIE_2 存在:', !!process.env.BUFF_COOKIE_2);
+  console.log('- BUFF_COOKIE_3 存在:', !!process.env.BUFF_COOKIE_3);
+  console.log('- BUFF_COOKIE_4 存在:', !!process.env.BUFF_COOKIE_4);
+  console.log('- BUFF_COOKIE 存在:', !!process.env.BUFF_COOKIE);
+  console.log('- STEAM_COOKIE 存在:', !!process.env.STEAM_COOKIE);
   
   // 获取完整数据
-  const newData = await fetchSteamAndBuffData();
-  logger.log(`获取到 ${newData.length} 条数据`);
+  console.log('=== 开始获取数据 ===');
+  console.log('开始时间:', new Date().toISOString());
+  
+  let newData;
+  try {
+    newData = await fetchSteamAndBuffData();
+    console.log(`=== 数据获取完成 ===`);
+    console.log(`获取到 ${newData.length} 条数据`);
+    console.log('完成时间:', new Date().toISOString());
+  } catch (error) {
+    console.error('=== 数据获取失败 ===');
+    console.error('错误:', error.message);
+    console.error('堆栈:', error.stack);
+    throw error;
+  }
 
   // 读取现有数据
+  console.log('=== 读取现有数据 ===');
   const existingData = await readJson(dataPath, []);
   if (!Array.isArray(existingData)) {
     throw new Error('data/data.json 格式错误，应为数组');
   }
+  console.log(`现有数据: ${existingData.length} 个物品`);
 
   // 处理每条新数据
-  for (const newItem of newData) {
+  console.log('=== 开始处理数据 ===');
+  for (let i = 0; i < newData.length; i++) {
+    const newItem = newData[i];
+    console.log(`处理第 ${i + 1}/${newData.length} 个物品: ${newItem.name}`);
+    
     // 查找是否存在相同名称的物品
     const existingItemIndex = existingData.findIndex(item => item.name === newItem.name);
     
@@ -65,7 +93,7 @@ async function main() {
       // 存在相同名称，添加到价格数组
       const existingItem = existingData[existingItemIndex];
       existingItem.prices.push(newItem.prices);
-      logger.log(`更新物品: ${newItem.name} - 添加新价格记录`);
+      console.log(`更新物品: ${newItem.name} - 添加新价格记录`);
     } else {
       // 不存在，创建新条目
       const newEntry = {
@@ -76,19 +104,24 @@ async function main() {
         prices: [newItem.prices]
       };
       existingData.push(newEntry);
-      logger.log(`新增物品: ${newItem.name} - 创建新条目`);
+      console.log(`新增物品: ${newItem.name} - 创建新条目`);
     }
   }
 
   // 保存更新后的数据
+  console.log('=== 保存数据 ===');
   await writeJson(dataPath, existingData);
+  console.log('数据已保存到:', dataPath);
   
   // 生成静态 HTML 页面
+  console.log('=== 生成静态页面 ===');
   const htmlPath = path.join(root, 'public', 'index.html');
   await generateStaticPage(existingData, htmlPath);
+  console.log('静态页面已生成到:', htmlPath);
   
   const timestamp = new Date().toISOString();
-  logger.log(`[update] ${timestamp} 处理了 ${newData.length} 条数据，总计 ${existingData.length} 个物品`);
+  console.log(`=== 更新完成 ===`);
+  console.log(`[update] ${timestamp} 处理了 ${newData.length} 条数据，总计 ${existingData.length} 个物品`);
   
   // 输出简要统计信息
   const totalPrices = existingData.reduce((sum, item) => sum + item.prices.length, 0);
