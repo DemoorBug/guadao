@@ -34,7 +34,7 @@ async function main() {
   // 在GitHub Actions中强制启用调试模式
   const isGitHubActions = process.env.GITHUB_ACTIONS === 'true';
   if (isGitHubActions) {
-    process.env.DEBUG = 'true';
+    process.env.DEBUG = 'false';
     console.log('[GitHub Actions] 强制启用DEBUG模式');
   }
 
