@@ -2,7 +2,8 @@ name: Update market data and deploy to GitHub Pages
 
 on:
   schedule:
-    - cron: '0 * * * *' # 每小时整点
+    - cron: '0,30 * * * *' # 每半小时更新一次（北京时间）
+    - cron: '0,15,30,45 19-21 * * *' # 北京时间3-5点期间每15分钟更新一次（UTC 19-21点）
   workflow_dispatch: {}
 
 permissions:
