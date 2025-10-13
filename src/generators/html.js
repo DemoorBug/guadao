@@ -15,8 +15,8 @@ async function ensureDir(filePath) {
  * @param {Array} data - 数据数组
  * @param {string} outputPath - 输出路径
  */
-export async function generateStaticPage(data, outputPath) {
-  const htmlContent = generateHtmlContent(data);
+export async function generateStaticPage(data, outputPath, buildId) {
+  const htmlContent = generateHtmlContent(data, buildId);
   
   // 直接写入 HTML 文件，不使用 JSON 格式化
   await ensureDir(outputPath);
@@ -29,14 +29,20 @@ export async function generateStaticPage(data, outputPath) {
  * @param {Array} data - 数据数组
  * @returns {string} HTML 内容
  */
-function generateHtmlContent(data) {
+function generateHtmlContent(data, buildId) {
+  const BUILD_ID = typeof buildId === 'string' && buildId ? buildId : new Date().toISOString();
   return `<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>价格监控图表</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <meta name="x-build-id" content="${BUILD_ID}">
+    <script>
+      // 构建版本号用于缓存规避及健康检查
+      window.BUILD_ID = ${JSON.stringify(BUILD_ID)};
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js?v=${encodeURIComponent(BUILD_ID)}"></script>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

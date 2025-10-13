@@ -55,6 +55,9 @@ async function main() {
   console.log('- BUFF_COOKIE 存在:', !!process.env.BUFF_COOKIE);
   console.log('- STEAM_COOKIE 存在:', !!process.env.STEAM_COOKIE);
   
+  // 生成本次构建ID（用于缓存清理与健康检查）
+  const buildId = new Date().toISOString();
+
   // 获取完整数据
   console.log('=== 开始获取数据 ===');
   console.log('开始时间:', new Date().toISOString());
@@ -116,8 +119,13 @@ async function main() {
   // 生成静态 HTML 页面
   console.log('=== 生成静态页面 ===');
   const htmlPath = path.join(root, 'public', 'index.html');
-  await generateStaticPage(existingData, htmlPath);
+  await generateStaticPage(existingData, htmlPath, buildId);
   console.log('静态页面已生成到:', htmlPath);
+  // 同步写 build_id.txt 供部署后健康检查与缓存验证
+  const buildIdPath = path.join(root, 'public', 'build_id.txt');
+  await ensureDir(buildIdPath);
+  await fs.writeFile(buildIdPath, buildId + '\n', 'utf-8');
+  console.log('写入构建标识到:', buildIdPath);
   
   const timestamp = new Date().toISOString();
   console.log(`=== 更新完成 ===`);

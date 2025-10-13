@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: '0,30 * * * *' # 每半小时更新一次（北京时间）
     - cron: '0,15,30,45 19-21 * * *' # 北京时间3-5点期间每15分钟更新一次（UTC 19-21点）
+    - cron: '*/10 * * * *' # 提高触发频率，结合分钟门限减少调度抖动
   workflow_dispatch: {}
 
 permissions:
@@ -15,6 +16,9 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    concurrency:
+      group: pages-update
+      cancel-in-progress: true
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -24,6 +28,25 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
+
+      - name: Minute gate (reduce schedule jitter)
+        run: |
+          # 使用 UTC 时间判断：
+          # - 若处于 19-21 点（对应北京 03-05 点），允许每 15 分钟（0/15/30/45）
+          # - 其他时间允许每 30 分钟（0/30）
+          H=$(date -u +%H)
+          M=$(date -u +%M)
+          if [ $H -ge 19 ] && [ $H -le 21 ]; then
+            if [ $((10#$M % 15)) -ne 0 ]; then
+              echo "Within 19-21 UTC window but minute=$M not on 15-min boundary, skipping run"
+              exit 0
+            fi
+          else
+            if [ $((10#$M % 30)) -ne 0 ]; then
+              echo "Outside 19-21 UTC window and minute=$M not on 30-min boundary, skipping run"
+              exit 0
+            fi
+          fi
 
       - name: Install dependencies
         run: npm ci
@@ -92,7 +115,7 @@ jobs:
           
           if ! git diff --quiet; then
             echo "=== 发现文件变更，准备提交 ==="
-            git add data/data.json public/index.html
+            git add data/data.json public/index.html public/build_id.txt
             git status
             git commit -m "chore: hourly data update and static page generation $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
             echo "=== 推送到远程仓库 ==="
@@ -124,5 +147,35 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Health check - wait for Pages to serve latest build
+        env:
+          PAGES_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          set -e
+          echo "Pages URL: $PAGES_URL"
+          # 允许最多等待 5 分钟，每 10 秒检查一次
+          ATTEMPTS=30
+          SLEEP=10
+          echo "开始轮询 build_id.txt 以检测最新版本..."
+          WANT=$(cat public/build_id.txt)
+          echo "期望构建ID: $WANT"
+          for i in $(seq 1 $ATTEMPTS); do
+            NOW=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+            echo "[$NOW] 第 $i/$ATTEMPTS 次检查..."
+            # 强制避免缓存：添加时间戳查询参数
+            URL_WITH_QS="$PAGES_URL/build_id.txt?ts=$(date +%s)"
+            echo "请求: $URL_WITH_QS"
+            RESP=$(curl -sS --max-time 10 "$URL_WITH_QS" || true)
+            echo "响应: $RESP"
+            if [ -n "$RESP" ] && [ "$RESP" = "$WANT" ] || echo "$RESP" | grep -q "$WANT"; then
+              echo "✅ Pages 已提供最新构建 ($WANT)"
+              exit 0
+            fi
+            sleep $SLEEP
+          done
+          echo "⚠️  超时：Pages 仍未提供最新构建 ($WANT)"
+          # 不失败整个工作流，仅提示
+          exit 0
 
 
