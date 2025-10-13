@@ -22,6 +22,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 允许后续 rebase/pull
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -119,8 +121,20 @@ jobs:
             git status
             git commit -m "chore: hourly data update and static page generation $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
             echo "=== 推送到远程仓库 ==="
+            # 推送可能因为远端更新而被拒绝，进行一次 rebase 并重试
+            set +e
             git push origin HEAD:main
-            echo "=== 推送完成 ==="
+            PUSH_EXIT=$?
+            set -e
+            if [ $PUSH_EXIT -ne 0 ]; then
+              echo "推送被拒绝，尝试抓取并 rebase 到最新的 origin/main 后重试..."
+              git fetch origin main
+              git rebase origin/main
+              git push origin HEAD:main
+              echo "=== 推送完成（经 rebase） ==="
+            else
+              echo "=== 推送完成 ==="
+            fi
           else
             echo "No changes to commit"
           fi
