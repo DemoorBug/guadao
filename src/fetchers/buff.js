@@ -7,7 +7,7 @@ import { createModuleLogger } from '../utils/logger.js';
  * 返回：Map<id, priceNumber>
  */
 export async function fetchBuffPrices(itemName, options = {}) {
-  const { cookieIndex = 0 } = options;
+  const { cookieIndex = 0, game: gameFromOptions } = options;
   const result = new Map();
   
   // 使用统一的日志控制
@@ -75,8 +75,16 @@ export async function fetchBuffPrices(itemName, options = {}) {
     'Referer': 'https://buff.163.com/market/csgo'
   });
   
+  // 解析 game 参数：优先 options.game，其次默认 csgo；仅允许已知枚举
+  const resolveGame = () => {
+    const g = (gameFromOptions || '').toLowerCase();
+    if (g === 'csgo' || g === 'dota2') return g;
+    return 'csgo';
+  };
+  const game = resolveGame();
+
   try {
-    const res = await fetch(`https://buff.163.com/api/market/goods?game=csgo&page_num=1&search=${encodeURIComponent(itemName)}`, {
+    const res = await fetch(`https://buff.163.com/api/market/goods?game=${game}&page_num=1&search=${encodeURIComponent(itemName)}`, {
       method: 'GET',
       headers: getHeaders()
     });
@@ -127,7 +135,7 @@ export async function fetchBuffPrices(itemName, options = {}) {
       logger.log('Extracted goods_id:', goodsId);
       
       // 构建新的 API 请求 URL
-      const sellOrderUrl = `https://buff.163.com/api/market/goods/sell_order?game=csgo&goods_id=${goodsId}&page_num=1&sort_by=default&mode=&allow_tradable_cooldown=1&from_refresh=1`;
+      const sellOrderUrl = `https://buff.163.com/api/market/goods/sell_order?game=${game}&goods_id=${goodsId}&page_num=1&sort_by=default&mode=&allow_tradable_cooldown=1&from_refresh=1`;
       logger.log('New sell order URL:', sellOrderUrl);
       
       // 发起新的请求获取销售订单
