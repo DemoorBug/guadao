@@ -775,6 +775,13 @@
         "buff_username": "你的林皇无限狂",
         "timestamp": "2025-10-13T20:35:42.070Z",
         "ratio": 0.8374
+      },
+      {
+        "steam_price": 5.69,
+        "buff_price": 4.02,
+        "buff_username": "zhzg3",
+        "timestamp": "2025-10-13T20:40:05.152Z",
+        "ratio": 0.8312
       }
     ]
   },
@@ -1315,6 +1322,13 @@
         "buff_username": "你的林皇无限狂",
         "timestamp": "2025-10-13T20:35:46.175Z",
         "ratio": 0.882
+      },
+      {
+        "steam_price": 15.01,
+        "buff_price": 11.1,
+        "buff_username": "pjy6",
+        "timestamp": "2025-10-13T20:40:10.716Z",
+        "ratio": 0.87
       }
     ]
   },
@@ -2656,6 +2670,13 @@
         "buff_username": "U56925578941",
         "timestamp": "2025-10-13T20:35:58.416Z",
         "ratio": 1.0112
+      },
+      {
+        "steam_price": 7.76,
+        "buff_price": 6.67,
+        "buff_username": "U56925578941",
+        "timestamp": "2025-10-13T20:40:17.037Z",
+        "ratio": 1.0112
       }
     ]
   },
@@ -3196,6 +3217,13 @@
         "buff_username": "小心棣华",
         "timestamp": "2025-10-13T20:35:52.203Z",
         "ratio": 0.9537
+      },
+      {
+        "steam_price": 13.94,
+        "buff_price": 11.34,
+        "buff_username": "無可替代",
+        "timestamp": "2025-10-13T20:40:14.297Z",
+        "ratio": 0.957
       }
     ]
   },
@@ -3729,6 +3757,13 @@
         "buff_username": "浩然101",
         "timestamp": "2025-10-13T20:36:27.704Z",
         "ratio": 1.023
+      },
+      {
+        "steam_price": 103.24,
+        "buff_price": 89.76,
+        "buff_username": "浩然101",
+        "timestamp": "2025-10-13T20:40:42.412Z",
+        "ratio": 1.0229
       }
     ]
   },
@@ -4115,6 +4150,13 @@
         "buff_username": "U93572952035",
         "timestamp": "2025-10-13T20:36:19.980Z",
         "ratio": 0.9324
+      },
+      {
+        "steam_price": 29.17,
+        "buff_price": 22.5,
+        "buff_username": "U93572952035",
+        "timestamp": "2025-10-13T20:40:47.010Z",
+        "ratio": 0.9075
       }
     ]
   },
@@ -4895,6 +4937,13 @@
         "buff_username": "U13779694352",
         "timestamp": "2025-10-13T20:36:23.544Z",
         "ratio": 0.8726
+      },
+      {
+        "steam_price": 13.94,
+        "buff_price": 10.34,
+        "buff_username": "U13779694352",
+        "timestamp": "2025-10-13T20:40:36.365Z",
+        "ratio": 0.8726
       }
     ]
   },
@@ -5434,6 +5483,13 @@
         "buff_price": 4.94,
         "buff_username": "U94406922627",
         "timestamp": "2025-10-13T20:36:02.141Z",
+        "ratio": 0.9284
+      },
+      {
+        "steam_price": 6.26,
+        "buff_price": 4.94,
+        "buff_username": "U94406922627",
+        "timestamp": "2025-10-13T20:40:22.731Z",
         "ratio": 0.9284
       }
     ]
@@ -8052,6 +8108,13 @@
         "buff_username": "U12998934584",
         "timestamp": "2025-10-13T20:36:14.484Z",
         "ratio": 0.8819
+      },
+      {
+        "steam_price": 12.66,
+        "buff_price": 9.55,
+        "buff_username": "U12998934584",
+        "timestamp": "2025-10-13T20:40:28.224Z",
+        "ratio": 0.8875
       }
     ]
   },
@@ -8241,6 +8304,13 @@
         "buff_price": 9.8,
         "buff_username": "寄孤",
         "timestamp": "2025-10-13T20:36:11.707Z",
+        "ratio": 0.8761
+      },
+      {
+        "steam_price": 13.16,
+        "buff_price": 9.8,
+        "buff_username": "U40275027407",
+        "timestamp": "2025-10-13T20:40:39.329Z",
         "ratio": 0.8761
       }
     ]
@@ -9258,6 +9328,28 @@
         "buff_username": "小陈卖铺最便宜",
         "timestamp": "2025-10-13T20:36:08.378Z",
         "ratio": 0.8557
+      },
+      {
+        "steam_price": 146.92,
+        "buff_price": 108,
+        "buff_username": "小陈卖铺最便宜",
+        "timestamp": "2025-10-13T20:40:32.117Z",
+        "ratio": 0.8648
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "印花 | M80（闪亮）| 2025年奥斯汀锦标赛",
+    "buff_link": "https://buff.163.com/goods/1117421?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20M80%20%28Foil%29%20%7C%20Austin%202025",
+    "prices": [
+      {
+        "steam_price": 5.12,
+        "buff_price": 4.3,
+        "buff_username": "U50921542382",
+        "timestamp": "2025-10-13T20:40:52.323Z",
+        "ratio": 0.9881
       }
     ]
   }
