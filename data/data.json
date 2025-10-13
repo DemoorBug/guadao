@@ -691,6 +691,13 @@
         "buff_username": "cc干了c",
         "timestamp": "2025-10-13T17:54:34.114Z",
         "ratio": 0.8458
+      },
+      {
+        "steam_price": 5.55,
+        "buff_price": 4.01,
+        "buff_username": "没钱吃饭惹555",
+        "timestamp": "2025-10-13T18:22:23.407Z",
+        "ratio": 0.85
       }
     ]
   },
@@ -1147,6 +1154,13 @@
         "buff_username": "U55870170474",
         "timestamp": "2025-10-13T17:54:37.537Z",
         "ratio": 0.8861
+      },
+      {
+        "steam_price": 14.51,
+        "buff_price": 11.1,
+        "buff_username": "看见秒发Ee",
+        "timestamp": "2025-10-13T18:22:29.771Z",
+        "ratio": 0.9
       }
     ]
   },
@@ -2404,6 +2418,13 @@
         "buff_username": "氵凛冬",
         "timestamp": "2025-10-13T17:54:44.934Z",
         "ratio": 1.0097
+      },
+      {
+        "steam_price": 7.76,
+        "buff_price": 6.67,
+        "buff_username": "U56925578941",
+        "timestamp": "2025-10-13T18:22:40.119Z",
+        "ratio": 1.0112
       }
     ]
   },
@@ -2860,6 +2881,13 @@
         "buff_username": "蛋堡店",
         "timestamp": "2025-10-13T17:54:41.874Z",
         "ratio": 0.9482
+      },
+      {
+        "steam_price": 14.02,
+        "buff_price": 11.3,
+        "buff_username": "蛋堡店",
+        "timestamp": "2025-10-13T18:22:35.480Z",
+        "ratio": 0.9482
       }
     ]
   },
@@ -3302,6 +3330,13 @@
         "buff_username": "U44438516516",
         "timestamp": "2025-10-13T17:55:11.958Z",
         "ratio": 1.015
+      },
+      {
+        "steam_price": 103.73,
+        "buff_price": 89.87,
+        "buff_username": "U36242024070",
+        "timestamp": "2025-10-13T18:22:46.997Z",
+        "ratio": 1.0193
       }
     ]
   },
@@ -3604,6 +3639,13 @@
         "buff_username": "五月蜂",
         "timestamp": "2025-10-13T17:15:16.586Z",
         "ratio": 0.9128
+      },
+      {
+        "steam_price": 28.32,
+        "buff_price": 22.8,
+        "buff_username": "没钱吃饭惹555",
+        "timestamp": "2025-10-13T18:22:59.014Z",
+        "ratio": 0.9472
       }
     ]
   },
@@ -4300,6 +4342,13 @@
         "buff_username": "漓心熄梦水漫秋",
         "timestamp": "2025-10-13T17:55:20.177Z",
         "ratio": 0.8625
+      },
+      {
+        "steam_price": 14.02,
+        "buff_price": 10.23,
+        "buff_username": "没钱吃饭惹555",
+        "timestamp": "2025-10-13T18:23:13.948Z",
+        "ratio": 0.8584
       }
     ]
   },
@@ -4756,6 +4805,13 @@
         "buff_username": "小何工作室",
         "timestamp": "2025-10-13T17:54:49.194Z",
         "ratio": 0.9446
+      },
+      {
+        "steam_price": 6.19,
+        "buff_price": 4.96,
+        "buff_username": "U70300669936",
+        "timestamp": "2025-10-13T18:22:44.200Z",
+        "ratio": 0.9427
       }
     ]
   },
@@ -5215,6 +5271,13 @@
         "buff_username": "风随梦",
         "timestamp": "2025-10-13T17:55:23.534Z",
         "ratio": 0.9262
+      },
+      {
+        "steam_price": 73.99,
+        "buff_price": 58.7,
+        "buff_username": "风随梦",
+        "timestamp": "2025-10-13T18:23:05.401Z",
+        "ratio": 0.9334
       }
     ]
   },
@@ -5650,6 +5713,13 @@
         "buff_username": "逸少ZMZ",
         "timestamp": "2025-10-13T17:55:14.992Z",
         "ratio": 0.856
+      },
+      {
+        "steam_price": 5.83,
+        "buff_price": 4.28,
+        "buff_username": "没钱吃饭惹555",
+        "timestamp": "2025-10-13T18:23:02.318Z",
+        "ratio": 0.8637
       }
     ]
   },
@@ -6517,6 +6587,13 @@
         "buff_username": "U46939104172",
         "timestamp": "2025-10-13T17:55:06.432Z",
         "ratio": 0.8851
+      },
+      {
+        "steam_price": 41.98,
+        "buff_price": 32.6,
+        "buff_username": "U46939104172",
+        "timestamp": "2025-10-13T18:23:08.282Z",
+        "ratio": 0.9136
       }
     ]
   },
@@ -6742,6 +6819,13 @@
         "buff_username": "U56358081949",
         "timestamp": "2025-10-13T17:54:54.855Z",
         "ratio": 1.1551
+      },
+      {
+        "steam_price": 86.94,
+        "buff_price": 85,
+        "buff_username": "迎梨",
+        "timestamp": "2025-10-13T18:22:54.910Z",
+        "ratio": 1.1502
       }
     ]
   },
@@ -6995,6 +7079,13 @@
         "buff_username": "会睡过头随缘卖",
         "timestamp": "2025-10-13T17:15:01.961Z",
         "ratio": 0.8486
+      },
+      {
+        "steam_price": 12.81,
+        "buff_price": 9.57,
+        "buff_username": "没钱吃饭惹555",
+        "timestamp": "2025-10-13T18:23:17.486Z",
+        "ratio": 0.8789
       }
     ]
   },
@@ -8087,6 +8178,21 @@
         "buff_username": "山河万千",
         "timestamp": "2025-10-13T17:55:09.265Z",
         "ratio": 1.6417
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "街头士兵 | 凤凰战士",
+    "buff_link": "https://buff.163.com/goods/835840?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Street%20Soldier%20%7C%20Phoenix",
+    "prices": [
+      {
+        "steam_price": 492.98,
+        "buff_price": 429,
+        "buff_username": "窗口化c",
+        "timestamp": "2025-10-13T18:22:50.350Z",
+        "ratio": 1.0238
       }
     ]
   }
