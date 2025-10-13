@@ -544,6 +544,13 @@
         "buff_username": "角卷棉芽",
         "timestamp": "2025-10-13T13:59:00.872Z",
         "ratio": 0.8246
+      },
+      {
+        "steam_price": 5.55,
+        "buff_price": 3.99,
+        "buff_username": "U69054559087",
+        "timestamp": "2025-10-13T14:19:41.623Z",
+        "ratio": 0.8458
       }
     ]
   },
@@ -853,6 +860,13 @@
         "buff_username": "徐茗一一",
         "timestamp": "2025-10-13T13:59:08.063Z",
         "ratio": 0.8662
+      },
+      {
+        "steam_price": 14.51,
+        "buff_price": 11,
+        "buff_username": "宁小雨",
+        "timestamp": "2025-10-13T14:19:52.469Z",
+        "ratio": 0.8919
       }
     ]
   },
@@ -1963,6 +1977,13 @@
         "buff_username": "U67144109132",
         "timestamp": "2025-10-13T13:59:18.436Z",
         "ratio": 1.0187
+      },
+      {
+        "steam_price": 7.76,
+        "buff_price": 6.62,
+        "buff_username": "初心的穷小铺",
+        "timestamp": "2025-10-13T14:19:56.964Z",
+        "ratio": 1.0036
       }
     ]
   },
@@ -2272,6 +2293,13 @@
         "buff_username": "不知道该怎么赢",
         "timestamp": "2025-10-13T13:59:13.773Z",
         "ratio": 0.9475
+      },
+      {
+        "steam_price": 13.87,
+        "buff_price": 11.17,
+        "buff_username": "不知道该怎么赢",
+        "timestamp": "2025-10-13T14:20:01.455Z",
+        "ratio": 0.9475
       }
     ]
   },
@@ -2567,6 +2595,13 @@
         "buff_username": "U33756559137",
         "timestamp": "2025-10-13T13:59:55.763Z",
         "ratio": 1.0021
+      },
+      {
+        "steam_price": 103.23,
+        "buff_price": 88.9,
+        "buff_username": "U33756559137",
+        "timestamp": "2025-10-13T14:20:22.841Z",
+        "ratio": 1.0132
       }
     ]
   },
@@ -3376,6 +3411,13 @@
         "buff_username": "U49076979261",
         "timestamp": "2025-10-13T11:38:11.278Z",
         "ratio": 0.8951
+      },
+      {
+        "steam_price": 14.02,
+        "buff_price": 10.64,
+        "buff_username": "U16125549910",
+        "timestamp": "2025-10-13T14:20:37.390Z",
+        "ratio": 0.8928
       }
     ]
   },
@@ -3685,6 +3727,13 @@
         "buff_username": "有你最爱的东西",
         "timestamp": "2025-10-13T13:59:24.739Z",
         "ratio": 0.904
+      },
+      {
+        "steam_price": 5.83,
+        "buff_price": 4.39,
+        "buff_username": "孩子缺钱买点吧",
+        "timestamp": "2025-10-13T14:20:04.573Z",
+        "ratio": 0.8859
       }
     ]
   },
@@ -4355,6 +4404,13 @@
         "buff_username": "别卡还能加益点",
         "timestamp": "2025-10-13T13:59:52.157Z",
         "ratio": 0.8496
+      },
+      {
+        "steam_price": 5.83,
+        "buff_price": 4.24,
+        "buff_username": "奇迹罩花鸭",
+        "timestamp": "2025-10-13T14:20:41.287Z",
+        "ratio": 0.8556
       }
     ]
   },
@@ -4482,6 +4538,13 @@
         "buff_username": "坑园",
         "timestamp": "2025-10-13T07:40:51.271Z",
         "ratio": 0.8787
+      },
+      {
+        "steam_price": 29.88,
+        "buff_price": 24.9,
+        "buff_username": "U02625580607",
+        "timestamp": "2025-10-13T14:20:17.023Z",
+        "ratio": 0.9804
       }
     ]
   },
@@ -4886,6 +4949,13 @@
         "buff_username": "阿勒波尼",
         "timestamp": "2025-10-13T03:43:35.893Z",
         "ratio": 0.8647
+      },
+      {
+        "steam_price": 40.98,
+        "buff_price": 30.9,
+        "buff_username": "U01723012025",
+        "timestamp": "2025-10-13T14:20:31.706Z",
+        "ratio": 0.8871
       }
     ]
   },
@@ -4963,6 +5033,13 @@
         "buff_price": 78.9,
         "buff_username": "大橘老公是瓜皮",
         "timestamp": "2025-10-13T13:59:03.790Z",
+        "ratio": 1.2557
+      },
+      {
+        "steam_price": 73.92,
+        "buff_price": 78.9,
+        "buff_username": "大橘老公是瓜皮",
+        "timestamp": "2025-10-13T14:19:47.939Z",
         "ratio": 1.2557
       }
     ]
@@ -5634,6 +5711,13 @@
         "buff_username": "U97283523054",
         "timestamp": "2025-10-13T04:44:40.929Z",
         "ratio": 1.0319
+      },
+      {
+        "steam_price": 598.35,
+        "buff_price": 554,
+        "buff_username": "U99257401189",
+        "timestamp": "2025-10-13T14:20:13.889Z",
+        "ratio": 1.0893
       }
     ]
   },
@@ -6032,6 +6116,36 @@
         "buff_username": "不睡秒发QAQ",
         "timestamp": "2025-10-13T13:59:38.743Z",
         "ratio": 1.0218
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "AK-47 | 橄榄迷彩 (崭新出厂)",
+    "buff_link": "https://buff.163.com/goods/967980?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Olive%20Polycam%20%28Factory%20New%29",
+    "prices": [
+      {
+        "steam_price": 14.73,
+        "buff_price": 14.5,
+        "buff_username": "巴嘎雅鹿滴干活",
+        "timestamp": "2025-10-13T14:20:10.162Z",
+        "ratio": 1.1581
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "印花 | 气味相投（全息）",
+    "buff_link": "https://buff.163.com/goods/968001?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Taste%20Buddy%20%28Holo%29",
+    "prices": [
+      {
+        "steam_price": 62.18,
+        "buff_price": 58.11,
+        "buff_username": "U18156156789",
+        "timestamp": "2025-10-13T14:20:25.737Z",
+        "ratio": 1.0995
       }
     ]
   }
