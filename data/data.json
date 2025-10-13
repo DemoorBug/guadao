@@ -502,6 +502,13 @@
         "buff_username": "U10508661283",
         "timestamp": "2025-10-13T11:37:27.474Z",
         "ratio": 0.84
+      },
+      {
+        "steam_price": 5.55,
+        "buff_price": 3.9,
+        "buff_username": "U33280859201",
+        "timestamp": "2025-10-13T13:18:54.360Z",
+        "ratio": 0.8267
       }
     ]
   },
@@ -769,6 +776,13 @@
         "buff_username": "U10508661283",
         "timestamp": "2025-10-13T11:37:33.567Z",
         "ratio": 0.8944
+      },
+      {
+        "steam_price": 14.73,
+        "buff_price": 11,
+        "buff_username": "ljz0329",
+        "timestamp": "2025-10-13T13:19:05.168Z",
+        "ratio": 0.8786
       }
     ]
   },
@@ -1837,6 +1851,13 @@
         "buff_username": "Haniiiiiii",
         "timestamp": "2025-10-13T11:37:53.713Z",
         "ratio": 1.0032
+      },
+      {
+        "steam_price": 7.76,
+        "buff_price": 6.6,
+        "buff_username": "有点散货",
+        "timestamp": "2025-10-13T13:19:14.935Z",
+        "ratio": 1.0006
       }
     ]
   },
@@ -2104,6 +2125,13 @@
         "buff_username": "U10812247694",
         "timestamp": "2025-10-13T11:37:49.595Z",
         "ratio": 0.952
+      },
+      {
+        "steam_price": 13.87,
+        "buff_price": 11.17,
+        "buff_username": "U64388634541",
+        "timestamp": "2025-10-13T13:19:11.023Z",
+        "ratio": 0.9475
       }
     ]
   },
@@ -2357,6 +2385,13 @@
         "buff_username": "贫穷的小孩",
         "timestamp": "2025-10-13T10:44:37.629Z",
         "ratio": 0.9541
+      },
+      {
+        "steam_price": 103.45,
+        "buff_price": 89.28,
+        "buff_username": "我是x",
+        "timestamp": "2025-10-13T13:19:43.638Z",
+        "ratio": 1.0153
       }
     ]
   },
@@ -2533,6 +2568,13 @@
         "buff_username": "withsmile",
         "timestamp": "2025-10-13T11:38:19.392Z",
         "ratio": 0.9242
+      },
+      {
+        "steam_price": 28.6,
+        "buff_price": 22.4,
+        "buff_username": "U09454162523",
+        "timestamp": "2025-10-13T13:19:47.684Z",
+        "ratio": 0.9214
       }
     ]
   },
@@ -3391,6 +3433,13 @@
         "buff_username": "鼻子猪",
         "timestamp": "2025-10-13T11:37:59.916Z",
         "ratio": 0.8973
+      },
+      {
+        "steam_price": 5.83,
+        "buff_price": 4.52,
+        "buff_username": "f246wx",
+        "timestamp": "2025-10-13T13:19:18.614Z",
+        "ratio": 0.9121
       }
     ]
   },
@@ -3527,6 +3576,13 @@
         "buff_username": "U43885782916",
         "timestamp": "2025-10-13T10:45:33.014Z",
         "ratio": 1.1367
+      },
+      {
+        "steam_price": 32.94,
+        "buff_price": 32,
+        "buff_username": "U37312379818",
+        "timestamp": "2025-10-13T13:19:53.787Z",
+        "ratio": 1.1429
       }
     ]
   },
@@ -3977,6 +4033,13 @@
         "buff_username": "秒收秒发ovo",
         "timestamp": "2025-10-13T07:41:05.326Z",
         "ratio": 0.8412
+      },
+      {
+        "steam_price": 5.83,
+        "buff_price": 4.19,
+        "buff_username": "U76374419998",
+        "timestamp": "2025-10-13T13:19:40.209Z",
+        "ratio": 0.8455
       }
     ]
   },
@@ -4416,6 +4479,13 @@
         "buff_username": "U57635799009",
         "timestamp": "2025-10-13T10:45:39.747Z",
         "ratio": 1.3255
+      },
+      {
+        "steam_price": 61.19,
+        "buff_price": 69.85,
+        "buff_username": "U81598713221",
+        "timestamp": "2025-10-13T13:19:37.422Z",
+        "ratio": 1.343
       }
     ]
   },
@@ -4481,6 +4551,13 @@
         "buff_username": "学生自用秒发0",
         "timestamp": "2025-10-13T07:40:44.322Z",
         "ratio": 1.1642
+      },
+      {
+        "steam_price": 73.78,
+        "buff_price": 78.88,
+        "buff_username": "龙的小卖铺",
+        "timestamp": "2025-10-13T13:18:58.600Z",
+        "ratio": 1.2578
       }
     ]
   },
@@ -5399,6 +5476,51 @@
         "buff_username": "U96379136809",
         "timestamp": "2025-10-13T11:38:06.747Z",
         "ratio": 0.9259
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "AK-47 | 幻影破坏者 (崭新出厂)",
+    "buff_link": "https://buff.163.com/goods/779257?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Phantom%20Disruptor%20%28Factory%20New%29",
+    "prices": [
+      {
+        "steam_price": 569.18,
+        "buff_price": 498.88,
+        "buff_username": "五福临门5",
+        "timestamp": "2025-10-13T13:19:22.694Z",
+        "ratio": 1.0312
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "格洛克 18 型 | 黑色魅影 (略有磨损)",
+    "buff_link": "https://buff.163.com/goods/835804?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Glock-18%20%7C%20Neo-Noir%20%28Minimal%20Wear%29",
+    "prices": [
+      {
+        "steam_price": 796.71,
+        "buff_price": 779.5,
+        "buff_username": "U22486669155",
+        "timestamp": "2025-10-13T13:19:26.131Z",
+        "ratio": 1.1511
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "印花 | MOUZ（全息）| 2025年奥斯汀锦标赛",
+    "buff_link": "https://buff.163.com/goods/1117415?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20MOUZ%20%28Holo%29%20%7C%20Austin%202025",
+    "prices": [
+      {
+        "steam_price": 84.81,
+        "buff_price": 72.85,
+        "buff_username": "信我只会赚",
+        "timestamp": "2025-10-13T13:19:31.705Z",
+        "ratio": 1.0106
       }
     ]
   }
