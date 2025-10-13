@@ -761,6 +761,13 @@
         "buff_username": "CCakeAd",
         "timestamp": "2025-10-13T19:56:34.295Z",
         "ratio": 0.825
+      },
+      {
+        "steam_price": 5.69,
+        "buff_price": 4.06,
+        "buff_username": "U28506948187",
+        "timestamp": "2025-10-13T20:20:56.850Z",
+        "ratio": 0.8395
       }
     ]
   },
@@ -1287,6 +1294,13 @@
         "buff_username": "U61421319413",
         "timestamp": "2025-10-13T19:56:19.362Z",
         "ratio": 0.8782
+      },
+      {
+        "steam_price": 14.8,
+        "buff_price": 11.3,
+        "buff_username": "U61421319413",
+        "timestamp": "2025-10-13T20:21:02.106Z",
+        "ratio": 0.8983
       }
     ]
   },
@@ -2614,6 +2628,13 @@
         "buff_username": "U56925578941",
         "timestamp": "2025-10-13T19:56:25.637Z",
         "ratio": 1.0112
+      },
+      {
+        "steam_price": 7.76,
+        "buff_price": 6.67,
+        "buff_username": "U56925578941",
+        "timestamp": "2025-10-13T20:21:05.503Z",
+        "ratio": 1.0112
       }
     ]
   },
@@ -3140,6 +3161,13 @@
         "buff_username": "U30637549300",
         "timestamp": "2025-10-13T19:56:38.932Z",
         "ratio": 0.95
+      },
+      {
+        "steam_price": 13.94,
+        "buff_price": 11.2,
+        "buff_username": "U30637549300",
+        "timestamp": "2025-10-13T20:21:12.829Z",
+        "ratio": 0.9452
       }
     ]
   },
@@ -3659,6 +3687,13 @@
         "buff_username": "绝世的",
         "timestamp": "2025-10-13T19:57:12.874Z",
         "ratio": 1.0192
+      },
+      {
+        "steam_price": 103.23,
+        "buff_price": 89.76,
+        "buff_username": "浩然101",
+        "timestamp": "2025-10-13T20:21:16.346Z",
+        "ratio": 1.023
       }
     ]
   },
@@ -4031,6 +4066,13 @@
         "buff_username": "U93572952035",
         "timestamp": "2025-10-13T19:56:54.445Z",
         "ratio": 0.9075
+      },
+      {
+        "steam_price": 28.81,
+        "buff_price": 22.5,
+        "buff_username": "U93572952035",
+        "timestamp": "2025-10-13T20:21:35.988Z",
+        "ratio": 0.9188
       }
     ]
   },
@@ -4797,6 +4839,13 @@
         "buff_username": "没钱吃饭惹555",
         "timestamp": "2025-10-13T19:56:57.941Z",
         "ratio": 0.8634
+      },
+      {
+        "steam_price": 14.02,
+        "buff_price": 10.34,
+        "buff_username": "U13779694352",
+        "timestamp": "2025-10-13T20:21:25.710Z",
+        "ratio": 0.8677
       }
     ]
   },
@@ -5322,6 +5371,13 @@
         "buff_price": 4.94,
         "buff_username": "U94406922627",
         "timestamp": "2025-10-13T19:56:30.835Z",
+        "ratio": 0.9284
+      },
+      {
+        "steam_price": 6.26,
+        "buff_price": 4.94,
+        "buff_username": "U94406922627",
+        "timestamp": "2025-10-13T20:21:09.121Z",
         "ratio": 0.9284
       }
     ]
@@ -7926,6 +7982,13 @@
         "buff_username": "CCakeAd",
         "timestamp": "2025-10-13T19:57:02.342Z",
         "ratio": 0.8597
+      },
+      {
+        "steam_price": 12.59,
+        "buff_price": 9.55,
+        "buff_username": "U12998934584",
+        "timestamp": "2025-10-13T20:21:38.790Z",
+        "ratio": 0.8924
       }
     ]
   },
@@ -8101,6 +8164,13 @@
         "buff_price": 9.8,
         "buff_username": "寄孤",
         "timestamp": "2025-10-13T19:57:16.346Z",
+        "ratio": 0.8761
+      },
+      {
+        "steam_price": 13.16,
+        "buff_price": 9.8,
+        "buff_username": "寄孤",
+        "timestamp": "2025-10-13T20:21:30.179Z",
         "ratio": 0.8761
       }
     ]
@@ -9096,6 +9166,21 @@
         "buff_username": "窗口化c",
         "timestamp": "2025-10-13T18:55:58.432Z",
         "ratio": 1.0332
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "印花 | M80（全息）| 2025年奥斯汀锦标赛",
+    "buff_link": "https://buff.163.com/goods/1117594?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20M80%20%28Holo%29%20%7C%20Austin%202025",
+    "prices": [
+      {
+        "steam_price": 146.71,
+        "buff_price": 108,
+        "buff_username": "小陈卖铺最便宜",
+        "timestamp": "2025-10-13T20:21:19.787Z",
+        "ratio": 0.8661
       }
     ]
   }
