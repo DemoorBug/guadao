@@ -16,6 +16,8 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    outputs:
+      build_id: ${{ steps.get_build_id.outputs.build_id }}
     concurrency:
       group: pages-update
       cancel-in-progress: true
@@ -106,6 +108,17 @@ jobs:
           echo "=== 数据更新完成 ==="
           echo "完成时间: $(date)"
 
+      - name: Export build id
+        id: get_build_id
+        run: |
+          if [ -f public/build_id.txt ]; then
+            echo "build_id=$(cat public/build_id.txt)" >> $GITHUB_OUTPUT
+            echo "Exported build_id: $(cat public/build_id.txt)"
+          else
+            echo "build_id=$(date -u +"%Y-%m-%dT%H:%M:%SZ")" >> $GITHUB_OUTPUT
+            echo "public/build_id.txt not found, exported current timestamp"
+          fi
+
       - name: Commit and push changes
         run: |
           echo "=== Git 状态检查 ==="
@@ -165,6 +178,7 @@ jobs:
       - name: Health check - wait for Pages to serve latest build
         env:
           PAGES_URL: ${{ steps.deployment.outputs.page_url }}
+          WANT: ${{ needs.update.outputs.build_id }}
         run: |
           set -e
           echo "Pages URL: $PAGES_URL"
@@ -172,7 +186,6 @@ jobs:
           ATTEMPTS=30
           SLEEP=10
           echo "开始轮询 build_id.txt 以检测最新版本..."
-          WANT=$(cat public/build_id.txt)
           echo "期望构建ID: $WANT"
           for i in $(seq 1 $ATTEMPTS); do
             NOW=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
