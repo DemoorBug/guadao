@@ -1,6 +1,7 @@
 // 从 items.json 读取配置并获取 Steam 市场数据的脚本
 // 用法：node src/fetchers/steam_test.js
 import { fetchBuffPrices } from './buff.js';
+import { getUsdCnyRate } from './Conversion.js';
 import { logger } from '../utils/logger.js';
 import fs from 'fs';
 import path from 'path';
@@ -49,8 +50,7 @@ async function processItem(item) {
     
     try {
       const res = await fetch(pageUrl, { method: 'GET', headers: {
-        'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
-        'Cookie': process.env.STEAM_COOKIE || ''
+        'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
       }});
       
       logger.log('Status:', res.status, res.statusText);
@@ -85,7 +85,18 @@ async function processItem(item) {
   logger.log(`物品 ${item.name} 总共提取到 ${allExtracted.length} 条数据`);
   
   // 处理每个物品的 Buff 数据
-  const processedData = await processBuffData(allExtracted);
+  // 获取一次 USD->CNY 汇率（页面级别一次）
+  const usdCnyRate = await getUsdCnyRate();
+  if (usdCnyRate) {
+    logger.log('获取到 USD->CNY 汇率:', usdCnyRate);
+  } else {
+    logger.warn('未能获取到 USD->CNY 汇率，将仅解析本币金额');
+  }
+
+  // 从 items.json 的 name 推断 BUFF 的 game 参数（如 csgo/dota2）
+  const game = typeof item.name === 'string' ? item.name.toLowerCase() : 'csgo';
+
+  const processedData = await processBuffData(allExtracted, usdCnyRate, game);
   
   logger.log(`处理完成，共 ${processedData.length} 条数据:`);
   logger.log(JSON.stringify(processedData, null, 2));
@@ -129,7 +140,7 @@ function parseHtmlData(html) {
   return extracted;
 }
 
-async function processBuffData(steamData) {
+async function processBuffData(steamData, usdCnyRate, game) {
   const processedData = [];
   let cookieIndex = 0;
   
@@ -157,9 +168,37 @@ async function processBuffData(steamData) {
     logger.log(`\n处理第 ${i + 1}/${steamData.length} 个物品: ${item.name}`);
     
     try {
-      // 查询 Buff 数据，使用当前 Cookie 索引
+      // 解析 Steam 价格：支持 "¥ 12.34"、"$2.10 USD" 等
+      const steamPriceStr = item.price || '';
+      let steamPrice;
+      // 1) 匹配美元格式: $2.10 USD / USD $2.10 / $ 2.10
+      const usdMatch = steamPriceStr.match(/\$\s*([0-9]+(?:\.[0-9]+)?)\s*(USD)?/i);
+      if (usdMatch && usdCnyRate) {
+        const usd = parseFloat(usdMatch[1]);
+        if (!isNaN(usd)) steamPrice = parseFloat((usd * usdCnyRate).toFixed(2));
+      }
+      // 2) 若非美元或未命中，则尝试人民币格式（含中文/符号）
+      if (steamPrice == null || isNaN(steamPrice)) {
+        const cnyClean = steamPriceStr.replace(/[^0-9.,-]/g, '').replace(',', '.');
+        const n = Number(cnyClean);
+        if (Number.isFinite(n)) steamPrice = n;
+      }
+      
+      if (isNaN(steamPrice)) {
+        logger.warn(`${item.name} 的 Steam 价格解析失败: ${item.price}`);
+        continue;
+      }
+
+      // 3) 小于 5 元人民币则跳过后续请求（直接下一个）
+      if (steamPrice < 5) {
+        logger.warn(`${item.name} 的 Steam 价格低于 ¥5（解析值: ¥${steamPrice}），跳过`);
+        continue;
+      }
+
+      // 查询 Buff 数据，使用当前 Cookie 索引（仅当价格达标时才请求）
       const buffResult = await fetchBuffPrices(item.name, { 
-        cookieIndex: cookieIndex 
+        cookieIndex: cookieIndex,
+        game: game 
       });
       
       if (buffResult.size === 0) {
@@ -171,15 +210,6 @@ async function processBuffData(steamData) {
       const buffData = buffResult.get(item.name);
       if (!buffData) {
         logger.warn(`未找到 ${item.name} 的 Buff 数据，跳过`);
-        continue;
-      }
-      
-      // 解析 Steam 价格（去除 ¥ 符号）
-      const steamPriceStr = item.price || '';
-      const steamPrice = parseFloat(steamPriceStr.replace(/[¥,\s]/g, ''));
-      
-      if (isNaN(steamPrice)) {
-        logger.warn(`${item.name} 的 Steam 价格解析失败: ${item.price}`);
         continue;
       }
       
