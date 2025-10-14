@@ -1006,6 +1006,13 @@
         "buff_username": "破魂中计了",
         "timestamp": "2025-10-14T03:51:26.914Z",
         "ratio": 0.825
+      },
+      {
+        "steam_price": 5.55,
+        "buff_price": 3.96,
+        "buff_username": "瓦斯爆犬佳的冯",
+        "timestamp": "2025-10-14T04:19:43.189Z",
+        "ratio": 0.8394
       }
     ]
   },
@@ -1763,6 +1770,13 @@
         "buff_username": "U99603674159",
         "timestamp": "2025-10-14T03:51:32.449Z",
         "ratio": 0.8861
+      },
+      {
+        "steam_price": 14.51,
+        "buff_price": 11.1,
+        "buff_username": "肖雪妍",
+        "timestamp": "2025-10-14T04:19:46.151Z",
+        "ratio": 0.9
       }
     ]
   },
@@ -3321,6 +3335,13 @@
         "buff_username": "100865",
         "timestamp": "2025-10-14T03:51:43.025Z",
         "ratio": 1.0006
+      },
+      {
+        "steam_price": 7.76,
+        "buff_price": 6.67,
+        "buff_username": "求少爷买我的",
+        "timestamp": "2025-10-14T04:19:49.274Z",
+        "ratio": 1.0112
       }
     ]
   },
@@ -4078,6 +4099,13 @@
         "buff_username": "laevatein",
         "timestamp": "2025-10-14T03:51:37.626Z",
         "ratio": 0.9619
+      },
+      {
+        "steam_price": 13.87,
+        "buff_price": 11.24,
+        "buff_username": "U31464879642",
+        "timestamp": "2025-10-14T04:19:34.594Z",
+        "ratio": 0.9534
       }
     ]
   },
@@ -4814,6 +4842,13 @@
         "buff_username": "浩然101",
         "timestamp": "2025-10-14T03:52:16.062Z",
         "ratio": 0.9895
+      },
+      {
+        "steam_price": 108.78,
+        "buff_price": 89.76,
+        "buff_username": "浩然101",
+        "timestamp": "2025-10-14T04:20:21.344Z",
+        "ratio": 0.9708
       }
     ]
   },
@@ -5284,6 +5319,13 @@
         "buff_username": "破魂中计了",
         "timestamp": "2025-10-14T03:51:54.852Z",
         "ratio": 0.9338
+      },
+      {
+        "steam_price": 28.46,
+        "buff_price": 22.4,
+        "buff_username": "没钱针不戳",
+        "timestamp": "2025-10-14T04:20:27.429Z",
+        "ratio": 0.926
       }
     ]
   },
@@ -7115,6 +7157,13 @@
         "buff_username": "36D秒接求购",
         "timestamp": "2025-10-14T03:51:45.674Z",
         "ratio": 0.9313
+      },
+      {
+        "steam_price": 6.19,
+        "buff_price": 4.89,
+        "buff_username": "努力撑不起梦",
+        "timestamp": "2025-10-14T04:19:39.701Z",
+        "ratio": 0.9294
       }
     ]
   },
@@ -8710,6 +8759,13 @@
         "buff_username": "U94322701241",
         "timestamp": "2025-10-13T22:17:37.255Z",
         "ratio": 0.893
+      },
+      {
+        "steam_price": 32.02,
+        "buff_price": 24.9,
+        "buff_username": "U51189550319",
+        "timestamp": "2025-10-14T04:20:24.706Z",
+        "ratio": 0.9149
       }
     ]
   },
@@ -9569,6 +9625,13 @@
         "buff_username": "U27482424861",
         "timestamp": "2025-10-14T03:51:59.569Z",
         "ratio": 0.9052
+      },
+      {
+        "steam_price": 43.19,
+        "buff_price": 32.9,
+        "buff_username": "U27482424861",
+        "timestamp": "2025-10-14T04:20:17.656Z",
+        "ratio": 0.8962
       }
     ]
   },
@@ -10404,6 +10467,13 @@
         "buff_username": "练习两年半只因",
         "timestamp": "2025-10-14T03:52:11.445Z",
         "ratio": 0.8659
+      },
+      {
+        "steam_price": 12.81,
+        "buff_price": 9.49,
+        "buff_username": "U83213085391",
+        "timestamp": "2025-10-14T04:19:54.798Z",
+        "ratio": 0.8716
       }
     ]
   },
@@ -10762,6 +10832,13 @@
         "buff_username": "U35457213617",
         "timestamp": "2025-10-14T01:45:30.892Z",
         "ratio": 0.8359
+      },
+      {
+        "steam_price": 13.23,
+        "buff_price": 9.49,
+        "buff_username": "一个小月芽儿",
+        "timestamp": "2025-10-14T04:20:32.783Z",
+        "ratio": 0.8439
       }
     ]
   },
@@ -11002,6 +11079,13 @@
         "buff_username": "U61300078602",
         "timestamp": "2025-10-13T11:38:15.563Z",
         "ratio": 0.9738
+      },
+      {
+        "steam_price": 34.44,
+        "buff_price": 25.2,
+        "buff_username": "U59107499766",
+        "timestamp": "2025-10-14T04:20:14.880Z",
+        "ratio": 0.8608
       }
     ]
   },
@@ -11451,6 +11535,13 @@
         "buff_username": "甜甜的铺子ing",
         "timestamp": "2025-10-13T06:54:43.597Z",
         "ratio": 0.9101
+      },
+      {
+        "steam_price": 30.31,
+        "buff_price": 23,
+        "buff_username": "U86926995476",
+        "timestamp": "2025-10-14T04:20:11.398Z",
+        "ratio": 0.8927
       }
     ]
   },
@@ -12241,6 +12332,51 @@
         "buff_username": "U46883028260",
         "timestamp": "2025-10-14T03:51:22.753Z",
         "ratio": 0.5987
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "2025年奥斯汀锦标赛炙热沙城 II 高光纪念包",
+    "buff_link": "https://buff.163.com/goods/1118068?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Austin%202025%20Dust%20II%20Souvenir%20Highlight%20Package",
+    "prices": [
+      {
+        "steam_price": 31.66,
+        "buff_price": 23.4,
+        "buff_username": "U23310745890",
+        "timestamp": "2025-10-14T04:19:58.609Z",
+        "ratio": 0.8695
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "九头蛇手套（★） | 翡翠色调 (略有磨损)",
+    "buff_link": "https://buff.163.com/goods/45579?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/%E2%98%85%20Hydra%20Gloves%20%7C%20Emerald%20%28Minimal%20Wear%29",
+    "prices": [
+      {
+        "steam_price": 1608.35,
+        "buff_price": 1299,
+        "buff_username": "虚无令使",
+        "timestamp": "2025-10-14T04:20:01.963Z",
+        "ratio": 0.9502
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "2021年斯德哥尔摩锦标赛传奇组印花胶囊",
+    "buff_link": "https://buff.163.com/goods/875864?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Stockholm%202021%20Legends%20Sticker%20Capsule",
+    "prices": [
+      {
+        "steam_price": 16.43,
+        "buff_price": 13,
+        "buff_username": "老板六五二零",
+        "timestamp": "2025-10-14T04:20:07.469Z",
+        "ratio": 0.9309
       }
     ]
   }
