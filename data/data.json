@@ -1174,6 +1174,13 @@
         "buff_username": "MymoonDiana",
         "timestamp": "2025-10-14T08:56:09.083Z",
         "ratio": 0.8566
+      },
+      {
+        "steam_price": 5.55,
+        "buff_price": 3.99,
+        "buff_username": "MymoonDiana",
+        "timestamp": "2025-10-14T09:20:55.001Z",
+        "ratio": 0.8458
       }
     ]
   },
@@ -2099,6 +2106,13 @@
         "buff_username": "我不是外星人",
         "timestamp": "2025-10-14T08:56:13.689Z",
         "ratio": 0.9176
+      },
+      {
+        "steam_price": 14.37,
+        "buff_price": 11,
+        "buff_username": "微烛",
+        "timestamp": "2025-10-14T09:21:00.847Z",
+        "ratio": 0.9006
       }
     ]
   },
@@ -3825,6 +3839,13 @@
         "buff_username": "你敢买我敢miao",
         "timestamp": "2025-10-14T08:56:18.476Z",
         "ratio": 1.041
+      },
+      {
+        "steam_price": 7.47,
+        "buff_price": 6.61,
+        "buff_username": "U29429118034",
+        "timestamp": "2025-10-14T09:21:11.109Z",
+        "ratio": 1.041
       }
     ]
   },
@@ -4750,6 +4771,13 @@
         "buff_username": "U23808250617",
         "timestamp": "2025-10-14T08:56:00.093Z",
         "ratio": 0.9705
+      },
+      {
+        "steam_price": 13.94,
+        "buff_price": 11.3,
+        "buff_username": "蛋堡店",
+        "timestamp": "2025-10-14T09:21:06.856Z",
+        "ratio": 0.9537
       }
     ]
   },
@@ -5654,6 +5682,13 @@
         "buff_username": "那就是缘分吧",
         "timestamp": "2025-10-14T08:56:47.821Z",
         "ratio": 1.0046
+      },
+      {
+        "steam_price": 105.58,
+        "buff_price": 89.73,
+        "buff_username": "那就是缘分吧",
+        "timestamp": "2025-10-14T09:21:47.438Z",
+        "ratio": 0.9999
       }
     ]
   },
@@ -6594,6 +6629,13 @@
         "buff_username": "青菜自动猫",
         "timestamp": "2025-10-14T08:56:56.552Z",
         "ratio": 0.8478
+      },
+      {
+        "steam_price": 5.12,
+        "buff_price": 3.73,
+        "buff_username": "U80565172727",
+        "timestamp": "2025-10-14T09:21:59.946Z",
+        "ratio": 0.8571
       }
     ]
   },
@@ -8319,6 +8361,13 @@
         "buff_username": "来个爹给我吧",
         "timestamp": "2025-10-14T08:56:25.216Z",
         "ratio": 0.8514
+      },
+      {
+        "steam_price": 6.55,
+        "buff_price": 4.73,
+        "buff_username": "青菜自动猫",
+        "timestamp": "2025-10-14T09:21:17.098Z",
+        "ratio": 0.8496
       }
     ]
   },
@@ -8418,6 +8467,13 @@
         "buff_username": "U24025089874",
         "timestamp": "2025-10-14T01:45:36.417Z",
         "ratio": 0.8985
+      },
+      {
+        "steam_price": 7.97,
+        "buff_price": 5.89,
+        "buff_username": "爱哭的咸蛋超人",
+        "timestamp": "2025-10-14T09:21:50.522Z",
+        "ratio": 0.8694
       }
     ]
   },
@@ -9149,6 +9205,13 @@
         "buff_username": "一叶繁天",
         "timestamp": "2025-10-14T08:56:40.410Z",
         "ratio": 0.9475
+      },
+      {
+        "steam_price": 72.43,
+        "buff_price": 58.88,
+        "buff_username": "alewka00",
+        "timestamp": "2025-10-14T09:21:26.591Z",
+        "ratio": 0.9564
       }
     ]
   },
@@ -9920,6 +9983,13 @@
         "buff_username": "小林商店i",
         "timestamp": "2025-10-14T07:55:21.180Z",
         "ratio": 0.8681
+      },
+      {
+        "steam_price": 5.83,
+        "buff_price": 4.26,
+        "buff_username": "靠谱就两字",
+        "timestamp": "2025-10-14T09:22:07.628Z",
+        "ratio": 0.8597
       }
     ]
   },
@@ -10715,6 +10785,13 @@
         "buff_username": "24在线妙法宝贝",
         "timestamp": "2025-10-14T08:46:32.399Z",
         "ratio": 0.9229
+      },
+      {
+        "steam_price": 7.33,
+        "buff_price": 5.77,
+        "buff_username": "U55181235384",
+        "timestamp": "2025-10-14T09:21:20.305Z",
+        "ratio": 0.9261
       }
     ]
   },
@@ -11179,6 +11256,13 @@
         "buff_username": "U48272144564",
         "timestamp": "2025-10-14T04:59:01.293Z",
         "ratio": 0.8995
+      },
+      {
+        "steam_price": 40.27,
+        "buff_price": 32,
+        "buff_username": "U45950689546",
+        "timestamp": "2025-10-14T09:22:04.588Z",
+        "ratio": 0.9349
       }
     ]
   },
@@ -12182,6 +12266,13 @@
         "buff_username": "U93863267012",
         "timestamp": "2025-10-14T08:56:04.787Z",
         "ratio": 0.8421
+      },
+      {
+        "steam_price": 12.88,
+        "buff_price": 9.4,
+        "buff_username": "爱哭的咸蛋超人",
+        "timestamp": "2025-10-14T09:21:54.629Z",
+        "ratio": 0.8586
       }
     ]
   },
@@ -13141,6 +13232,13 @@
         "buff_username": "U46926108728",
         "timestamp": "2025-10-14T08:56:30.473Z",
         "ratio": 0.9193
+      },
+      {
+        "steam_price": 89.57,
+        "buff_price": 69.88,
+        "buff_username": "U46926108728",
+        "timestamp": "2025-10-14T09:21:41.418Z",
+        "ratio": 0.9178
       }
     ]
   },
@@ -14883,6 +14981,36 @@
         "buff_username": "LockAzmy",
         "timestamp": "2025-10-14T08:56:51.859Z",
         "ratio": 0.8395
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "“两次”麦考伊 | 美国空军战术空中管制部队",
+    "buff_link": "https://buff.163.com/goods/774691?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/%27Two%20Times%27%20McCoy%20%7C%20USAF%20TACP",
+    "prices": [
+      {
+        "steam_price": 179.72,
+        "buff_price": 164.5,
+        "buff_username": "小侯杂货铺",
+        "timestamp": "2025-10-14T09:21:32.627Z",
+        "ratio": 1.0768
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "印花 | The MongolZ（全息）| 2024年哥本哈根锦标赛",
+    "buff_link": "https://buff.163.com/goods/959980?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20The%20MongolZ%20%28Holo%29%20%7C%20Copenhagen%202024",
+    "prices": [
+      {
+        "steam_price": 40.06,
+        "buff_price": 35,
+        "buff_username": "lytlyt0724",
+        "timestamp": "2025-10-14T09:21:36.182Z",
+        "ratio": 1.0279
       }
     ]
   }
