@@ -175,34 +175,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-      - name: Health check - wait for Pages to serve latest build
-        env:
-          PAGES_URL: ${{ steps.deployment.outputs.page_url }}
-          WANT: ${{ needs.update.outputs.build_id }}
-        run: |
-          set -e
-          echo "Pages URL: $PAGES_URL"
-          # 允许最多等待 5 分钟，每 10 秒检查一次
-          ATTEMPTS=30
-          SLEEP=10
-          echo "开始轮询 build_id.txt 以检测最新版本..."
-          echo "期望构建ID: $WANT"
-          for i in $(seq 1 $ATTEMPTS); do
-            NOW=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-            echo "[$NOW] 第 $i/$ATTEMPTS 次检查..."
-            # 强制避免缓存：添加时间戳查询参数
-            URL_WITH_QS="$PAGES_URL/build_id.txt?ts=$(date +%s)"
-            echo "请求: $URL_WITH_QS"
-            RESP=$(curl -sS --max-time 10 "$URL_WITH_QS" || true)
-            echo "响应: $RESP"
-            if [ -n "$RESP" ] && [ "$RESP" = "$WANT" ] || echo "$RESP" | grep -q "$WANT"; then
-              echo "✅ Pages 已提供最新构建 ($WANT)"
-              exit 0
-            fi
-            sleep $SLEEP
-          done
-          echo "⚠️  超时：Pages 仍未提供最新构建 ($WANT)"
-          # 不失败整个工作流，仅提示
-          exit 0
-
 
