@@ -317,10 +317,11 @@ function generateHtmlContent(data, buildId) {
                 const ratio = latestPrice.ratio;
                 const ratioClass = ratio < 0.75 ? 'ratio-low' : ratio < 0.85 ? 'ratio-medium' : 'ratio-high';
                 const updateTime = new Date(latestPrice.timestamp).toLocaleString('zh-CN');
+                const originalIndex = data.findIndex(d => d.name === item.name);
                 
                 return \`
                     <tr>
-                        <td>\${item.name}</td>
+                        <td onclick="switchToItem(\${originalIndex})" style="cursor: pointer;">\${item.name}</td>
                         <td>
                             <a href="\${item.link}" target="_blank" class="price-link">
                                 ¥\${latestPrice.steam_price}
