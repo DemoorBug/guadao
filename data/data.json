@@ -1902,6 +1902,13 @@
         "buff_username": "坑里Jackson",
         "timestamp": "2025-10-15T07:56:46.430Z",
         "ratio": 0.8428
+      },
+      {
+        "steam_price": 6.4,
+        "buff_price": 3.97,
+        "buff_username": "U35696567845",
+        "timestamp": "2025-10-15T08:27:25.569Z",
+        "ratio": 0.7298
       }
     ]
   },
@@ -3555,6 +3562,13 @@
         "buff_username": "焱崽jj",
         "timestamp": "2025-10-15T07:56:49.367Z",
         "ratio": 0.905
+      },
+      {
+        "steam_price": 16.2,
+        "buff_price": 10.6,
+        "buff_username": "5rb88",
+        "timestamp": "2025-10-15T08:27:28.391Z",
+        "ratio": 0.7698
       }
     ]
   },
@@ -7711,6 +7725,13 @@
         "buff_username": "U88916360312",
         "timestamp": "2025-10-15T07:56:55.786Z",
         "ratio": 0.9339
+      },
+      {
+        "steam_price": 16.2,
+        "buff_price": 11,
+        "buff_username": "Sky蓝遂",
+        "timestamp": "2025-10-15T08:27:21.643Z",
+        "ratio": 0.7988
       }
     ]
   },
@@ -9357,6 +9378,13 @@
         "buff_username": "U20588283157",
         "timestamp": "2025-10-15T07:57:27.574Z",
         "ratio": 0.9782
+      },
+      {
+        "steam_price": 124.18,
+        "buff_price": 88.3,
+        "buff_username": "U14268290681",
+        "timestamp": "2025-10-15T08:27:40.034Z",
+        "ratio": 0.8365
       }
     ]
   },
@@ -11480,6 +11508,13 @@
         "buff_username": "U70847694392",
         "timestamp": "2025-10-15T07:48:05.345Z",
         "ratio": 0.6873
+      },
+      {
+        "steam_price": 5.81,
+        "buff_price": 3.4,
+        "buff_username": "U56851542015",
+        "timestamp": "2025-10-15T08:28:03.507Z",
+        "ratio": 0.6885
       }
     ]
   },
@@ -12875,6 +12910,13 @@
         "buff_username": "U44859145472",
         "timestamp": "2025-10-15T07:57:12.441Z",
         "ratio": 0.8362
+      },
+      {
+        "steam_price": 16.03,
+        "buff_price": 10.6,
+        "buff_username": "U59949471889",
+        "timestamp": "2025-10-15T08:27:49.105Z",
+        "ratio": 0.778
       }
     ]
   },
@@ -14493,6 +14535,13 @@
         "buff_username": "U78538115482",
         "timestamp": "2025-10-15T07:57:18.182Z",
         "ratio": 0.8176
+      },
+      {
+        "steam_price": 6.98,
+        "buff_price": 4.14,
+        "buff_username": "U56851542015",
+        "timestamp": "2025-10-15T08:27:35.383Z",
+        "ratio": 0.6978
       }
     ]
   },
@@ -17879,6 +17928,13 @@
         "buff_username": "小滕哥",
         "timestamp": "2025-10-15T07:57:36.361Z",
         "ratio": 0.863
+      },
+      {
+        "steam_price": 6.73,
+        "buff_price": 4.2,
+        "buff_username": "cc212",
+        "timestamp": "2025-10-15T08:27:52.252Z",
+        "ratio": 0.7342
       }
     ]
   },
@@ -22354,6 +22410,13 @@
         "buff_username": "苏哥哥啊哈哈哈",
         "timestamp": "2025-10-15T07:57:30.404Z",
         "ratio": 0.8242
+      },
+      {
+        "steam_price": 15.78,
+        "buff_price": 9.48,
+        "buff_username": "U09035732634",
+        "timestamp": "2025-10-15T08:27:46.222Z",
+        "ratio": 0.7068
       }
     ]
   },
@@ -25138,6 +25201,13 @@
         "buff_username": "LockAzmy",
         "timestamp": "2025-10-14T08:56:51.859Z",
         "ratio": 0.8395
+      },
+      {
+        "steam_price": 6.48,
+        "buff_price": 3.95,
+        "buff_username": "U16500014853",
+        "timestamp": "2025-10-15T08:28:09.527Z",
+        "ratio": 0.7171
       }
     ]
   },
@@ -25807,6 +25877,36 @@
         "buff_username": "U68668290102",
         "timestamp": "2025-10-15T07:57:04.300Z",
         "ratio": 1.6785
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "name": "印花 | 镀铬颅骨（全息）",
+    "buff_link": "https://buff.163.com/goods/1120411?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Chrome%20Dome%20%28Holo%29",
+    "prices": [
+      {
+        "steam_price": 62.46,
+        "buff_price": 54.69,
+        "buff_username": "U65542467802",
+        "timestamp": "2025-10-15T08:27:18.165Z",
+        "ratio": 1.0301
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "name": "印花 | 炙热",
+    "buff_link": "https://buff.163.com/goods/967974?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20High%20Heat",
+    "prices": [
+      {
+        "steam_price": 11.96,
+        "buff_price": 7.08,
+        "buff_username": "1575369",
+        "timestamp": "2025-10-15T08:27:57.707Z",
+        "ratio": 0.6964
       }
     ]
   }
