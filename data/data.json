@@ -3869,6 +3869,13 @@
         "buff_username": "U13567698993",
         "timestamp": "2025-10-17T21:58:07.156Z",
         "ratio": 0.8231
+      },
+      {
+        "steam_price": 5.7,
+        "buff_price": 3.97,
+        "buff_username": "U73012153184",
+        "timestamp": "2025-10-17T22:17:09.165Z",
+        "ratio": 0.8194
       }
     ]
   },
@@ -7489,6 +7496,13 @@
         "buff_username": "优雅至高无上",
         "timestamp": "2025-10-17T21:58:10.901Z",
         "ratio": 0.8952
+      },
+      {
+        "steam_price": 13.97,
+        "buff_price": 10.7,
+        "buff_username": "富哥救救我",
+        "timestamp": "2025-10-17T22:17:12.070Z",
+        "ratio": 0.9011
       }
     ]
   },
@@ -12001,6 +12015,13 @@
         "buff_username": "酱油的节奏",
         "timestamp": "2025-10-17T21:58:18.495Z",
         "ratio": 0.9677
+      },
+      {
+        "steam_price": 7.55,
+        "buff_price": 6.18,
+        "buff_username": "富哥救救我",
+        "timestamp": "2025-10-17T22:17:16.349Z",
+        "ratio": 0.963
       }
     ]
   },
@@ -15606,6 +15627,13 @@
         "buff_price": 10.8,
         "buff_username": "衫元",
         "timestamp": "2025-10-17T21:58:15.183Z",
+        "ratio": 0.9482
+      },
+      {
+        "steam_price": 13.4,
+        "buff_price": 10.8,
+        "buff_username": "衫元",
+        "timestamp": "2025-10-17T22:17:19.290Z",
         "ratio": 0.9482
       }
     ]
@@ -19241,6 +19269,13 @@
         "buff_username": "U69913312599",
         "timestamp": "2025-10-17T21:58:01.217Z",
         "ratio": 0.9194
+      },
+      {
+        "steam_price": 113.68,
+        "buff_price": 89.79,
+        "buff_username": "U69913312599",
+        "timestamp": "2025-10-17T22:17:22.505Z",
+        "ratio": 0.9292
       }
     ]
   },
@@ -22028,6 +22063,13 @@
         "buff_username": "EXKURSION",
         "timestamp": "2025-10-17T21:58:23.893Z",
         "ratio": 0.8536
+      },
+      {
+        "steam_price": 32.43,
+        "buff_price": 23.48,
+        "buff_username": "EXKURSION",
+        "timestamp": "2025-10-17T22:17:04.828Z",
+        "ratio": 0.8518
       }
     ]
   },
@@ -48639,6 +48681,13 @@
         "buff_username": "U96379136809",
         "timestamp": "2025-10-13T02:57:09.091Z",
         "ratio": 0.8612
+      },
+      {
+        "steam_price": 75.55,
+        "buff_price": 63,
+        "buff_username": "一人Cs",
+        "timestamp": "2025-10-17T22:18:00.638Z",
+        "ratio": 0.981
       }
     ]
   },
@@ -51967,6 +52016,13 @@
         "buff_username": "箱开不炒",
         "timestamp": "2025-10-14T07:55:12.447Z",
         "ratio": 1.2154
+      },
+      {
+        "steam_price": 120.02,
+        "buff_price": 100.38,
+        "buff_username": "IGG6C",
+        "timestamp": "2025-10-17T22:18:08.012Z",
+        "ratio": 0.984
       }
     ]
   },
@@ -53685,6 +53741,13 @@
         "buff_username": "U08500729825",
         "timestamp": "2025-10-15T13:59:46.429Z",
         "ratio": 0.8511
+      },
+      {
+        "steam_price": 96.22,
+        "buff_price": 76.9,
+        "buff_username": "TOP333L",
+        "timestamp": "2025-10-17T22:17:50.743Z",
+        "ratio": 0.9402
       }
     ]
   },
@@ -54260,6 +54323,111 @@
         "buff_username": "Theseu5",
         "timestamp": "2025-10-17T21:58:27.450Z",
         "ratio": 0.8987
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "name": "AK-47 | 精英之作 (久经沙场)",
+    "buff_link": "https://buff.163.com/goods/33886?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Elite%20Build%20%28Field-Tested%29",
+    "prices": [
+      {
+        "steam_price": 14.75,
+        "buff_price": 10.65,
+        "buff_username": "出金就开店",
+        "timestamp": "2025-10-17T22:17:28.863Z",
+        "ratio": 0.8495
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "name": "P2000 | 渐变琥珀 (久经沙场)",
+    "buff_link": "https://buff.163.com/goods/35899?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/P2000%20%7C%20Amber%20Fade%20%28Field-Tested%29",
+    "prices": [
+      {
+        "steam_price": 24.94,
+        "buff_price": 17.88,
+        "buff_username": "meidor",
+        "timestamp": "2025-10-17T22:17:31.999Z",
+        "ratio": 0.8434
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "name": "SSG 08 | 渐变强酸 (崭新出厂)",
+    "buff_link": "https://buff.163.com/goods/36526?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/SSG%2008%20%7C%20Acid%20Fade%20%28Factory%20New%29",
+    "prices": [
+      {
+        "steam_price": 28.51,
+        "buff_price": 24.44,
+        "buff_username": "清华大学七号仓",
+        "timestamp": "2025-10-17T22:17:35.795Z",
+        "ratio": 1.0085
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "name": "P2000 | 渐变琥珀 (略有磨损)",
+    "buff_link": "https://buff.163.com/goods/35900?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/P2000%20%7C%20Amber%20Fade%20%28Minimal%20Wear%29",
+    "prices": [
+      {
+        "steam_price": 58.44,
+        "buff_price": 45.69,
+        "buff_username": "神秘电击男",
+        "timestamp": "2025-10-17T22:17:41.348Z",
+        "ratio": 0.9198
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "name": "AK-47 | 荒野反叛 (久经沙场)",
+    "buff_link": "https://buff.163.com/goods/33980?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Wasteland%20Rebel%20%28Field-Tested%29",
+    "prices": [
+      {
+        "steam_price": 370.25,
+        "buff_price": 327.5,
+        "buff_username": "U47314777177",
+        "timestamp": "2025-10-17T22:17:47.303Z",
+        "ratio": 1.0406
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "name": "冬季攻势武器箱",
+    "buff_link": "https://buff.163.com/goods/42240?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Winter%20Offensive%20Weapon%20Case",
+    "prices": [
+      {
+        "steam_price": 69.92,
+        "buff_price": 49,
+        "buff_username": "U93588176798",
+        "timestamp": "2025-10-17T22:17:56.462Z",
+        "ratio": 0.8245
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "name": "电竞 2013 冬季武器箱",
+    "buff_link": "https://buff.163.com/goods/42346?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/eSports%202013%20Winter%20Case",
+    "prices": [
+      {
+        "steam_price": 122.59,
+        "buff_price": 120.93,
+        "buff_username": "恋游戏忧",
+        "timestamp": "2025-10-17T22:18:04.683Z",
+        "ratio": 1.1605
       }
     ]
   }
