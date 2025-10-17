@@ -3841,6 +3841,13 @@
         "buff_username": "U02003298003",
         "timestamp": "2025-10-17T21:29:40.474Z",
         "ratio": 0.8252
+      },
+      {
+        "steam_price": 5.56,
+        "buff_price": 3.89,
+        "buff_username": "U46793446583",
+        "timestamp": "2025-10-17T21:36:43.083Z",
+        "ratio": 0.8231
       }
     ]
   },
@@ -7433,6 +7440,13 @@
         "buff_username": "U54055417261",
         "timestamp": "2025-10-17T21:29:45.997Z",
         "ratio": 0.9117
+      },
+      {
+        "steam_price": 13.9,
+        "buff_price": 10.7,
+        "buff_username": "寺庙",
+        "timestamp": "2025-10-17T21:36:49.023Z",
+        "ratio": 0.9056
       }
     ]
   },
@@ -11917,6 +11931,13 @@
         "buff_username": "ovole",
         "timestamp": "2025-10-17T21:29:57.312Z",
         "ratio": 0.9599
+      },
+      {
+        "steam_price": 7.55,
+        "buff_price": 6.16,
+        "buff_username": "ovole",
+        "timestamp": "2025-10-17T21:36:54.540Z",
+        "ratio": 0.9599
       }
     ]
   },
@@ -15494,6 +15515,13 @@
         "buff_price": 10.8,
         "buff_username": "衫元",
         "timestamp": "2025-10-17T21:29:51.317Z",
+        "ratio": 0.9482
+      },
+      {
+        "steam_price": 13.4,
+        "buff_price": 10.8,
+        "buff_username": "衫元",
+        "timestamp": "2025-10-17T21:36:51.888Z",
         "ratio": 0.9482
       }
     ]
@@ -19101,6 +19129,13 @@
         "buff_username": "U69913312599",
         "timestamp": "2025-10-17T21:29:29.856Z",
         "ratio": 0.9292
+      },
+      {
+        "steam_price": 114.25,
+        "buff_price": 89.79,
+        "buff_username": "U69913312599",
+        "timestamp": "2025-10-17T21:36:40.081Z",
+        "ratio": 0.9246
       }
     ]
   },
@@ -21860,6 +21895,13 @@
         "buff_username": "EXKURSION",
         "timestamp": "2025-10-17T21:29:36.073Z",
         "ratio": 0.8632
+      },
+      {
+        "steam_price": 32.21,
+        "buff_price": 23.48,
+        "buff_username": "EXKURSION",
+        "timestamp": "2025-10-17T21:36:36.493Z",
+        "ratio": 0.8576
       }
     ]
   },
