@@ -4380,6 +4380,13 @@
         "buff_username": "U40190661849",
         "timestamp": "2025-10-18T14:15:32.620Z",
         "ratio": 0.8422
+      },
+      {
+        "steam_price": 5.49,
+        "buff_price": 3.9,
+        "buff_username": "U85564664728",
+        "timestamp": "2025-10-18T14:19:27.691Z",
+        "ratio": 0.8357
       }
     ]
   },
@@ -8525,6 +8532,13 @@
         "buff_username": "洋洋爱你",
         "timestamp": "2025-10-18T14:15:42.495Z",
         "ratio": 0.8974
+      },
+      {
+        "steam_price": 14.47,
+        "buff_price": 10.7,
+        "buff_username": "世间心动落幕",
+        "timestamp": "2025-10-18T14:19:36.109Z",
+        "ratio": 0.87
       }
     ]
   },
@@ -13548,6 +13562,13 @@
         "buff_username": "U65223572765",
         "timestamp": "2025-10-18T14:15:51.905Z",
         "ratio": 0.9473
+      },
+      {
+        "steam_price": 7.34,
+        "buff_price": 5.9,
+        "buff_username": "zz519498",
+        "timestamp": "2025-10-18T14:19:46.102Z",
+        "ratio": 0.9457
       }
     ]
   },
@@ -17664,6 +17685,13 @@
         "buff_price": 10.5,
         "buff_username": "zyb的小店",
         "timestamp": "2025-10-18T14:15:47.982Z",
+        "ratio": 0.9365
+      },
+      {
+        "steam_price": 13.19,
+        "buff_price": 10.5,
+        "buff_username": "zyb的小店",
+        "timestamp": "2025-10-18T14:19:40.057Z",
         "ratio": 0.9365
       }
     ]
@@ -21831,6 +21859,13 @@
         "buff_username": "U18836153158",
         "timestamp": "2025-10-18T13:59:34.475Z",
         "ratio": 0.9743
+      },
+      {
+        "steam_price": 108.26,
+        "buff_price": 89.5,
+        "buff_username": "支付s宝秒发",
+        "timestamp": "2025-10-18T14:20:13.137Z",
+        "ratio": 0.9726
       }
     ]
   },
@@ -25108,6 +25143,13 @@
         "buff_username": "Saber521",
         "timestamp": "2025-10-18T13:59:31.192Z",
         "ratio": 0.7824
+      },
+      {
+        "steam_price": 32.14,
+        "buff_price": 23.75,
+        "buff_username": "U47294894886",
+        "timestamp": "2025-10-18T14:19:57.044Z",
+        "ratio": 0.8694
       }
     ]
   },
@@ -29766,6 +29808,13 @@
         "buff_username": "U82589188537",
         "timestamp": "2025-10-18T13:59:44.231Z",
         "ratio": 0.8504
+      },
+      {
+        "steam_price": 14.11,
+        "buff_price": 10.69,
+        "buff_username": "仙女的零食铺",
+        "timestamp": "2025-10-18T14:20:23.220Z",
+        "ratio": 0.8913
       }
     ]
   },
@@ -33512,6 +33561,13 @@
         "buff_username": "青菜自动猫",
         "timestamp": "2025-10-18T13:03:08.939Z",
         "ratio": 0.8774
+      },
+      {
+        "steam_price": 5.35,
+        "buff_price": 4.12,
+        "buff_username": "发财簿A",
+        "timestamp": "2025-10-18T14:20:26.342Z",
+        "ratio": 0.906
       }
     ]
   },
@@ -35347,6 +35403,13 @@
         "buff_username": "U40372939809",
         "timestamp": "2025-10-18T13:59:22.384Z",
         "ratio": 0.907
+      },
+      {
+        "steam_price": 7.98,
+        "buff_price": 6,
+        "buff_username": "U21043864765",
+        "timestamp": "2025-10-18T14:20:19.267Z",
+        "ratio": 0.8846
       }
     ]
   },
@@ -39424,6 +39487,13 @@
         "buff_username": "U62417600107",
         "timestamp": "2025-10-18T13:59:11.544Z",
         "ratio": 0.8963
+      },
+      {
+        "steam_price": 80.39,
+        "buff_price": 61.29,
+        "buff_username": "啾比啾比",
+        "timestamp": "2025-10-18T14:20:04.438Z",
+        "ratio": 0.897
       }
     ]
   },
@@ -43281,6 +43351,13 @@
         "buff_price": 4.29,
         "buff_username": "i琪琪琪",
         "timestamp": "2025-10-18T14:15:38.919Z",
+        "ratio": 0.8525
+      },
+      {
+        "steam_price": 5.92,
+        "buff_price": 4.29,
+        "buff_username": "U37921715245",
+        "timestamp": "2025-10-18T14:19:33.287Z",
         "ratio": 0.8525
       }
     ]
@@ -48853,6 +48930,13 @@
         "buff_username": "U18836153158",
         "timestamp": "2025-10-18T13:59:17.532Z",
         "ratio": 0.8743
+      },
+      {
+        "steam_price": 40.7,
+        "buff_price": 31.3,
+        "buff_username": "极爱自己",
+        "timestamp": "2025-10-18T14:20:00.864Z",
+        "ratio": 0.9048
       }
     ]
   },
@@ -57063,6 +57147,13 @@
         "buff_username": "Mosi6",
         "timestamp": "2025-10-18T07:57:36.293Z",
         "ratio": 0.866
+      },
+      {
+        "steam_price": 30.65,
+        "buff_price": 23.08,
+        "buff_username": "U24232201405",
+        "timestamp": "2025-10-18T14:20:07.613Z",
+        "ratio": 0.8859
       }
     ]
   },
@@ -62370,6 +62461,21 @@
         "buff_username": "U18836153158",
         "timestamp": "2025-10-18T13:59:06.843Z",
         "ratio": 0.9255
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "name": "“激流大行动”武器箱",
+    "buff_link": "https://buff.163.com/goods/871092?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Operation%20Riptide%20Case",
+    "prices": [
+      {
+        "steam_price": 121.8,
+        "buff_price": 91.99,
+        "buff_username": "wuertian",
+        "timestamp": "2025-10-18T14:19:51.542Z",
+        "ratio": 0.8885
       }
     ]
   }
