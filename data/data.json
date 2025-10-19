@@ -5206,6 +5206,13 @@
         "buff_username": "长川66",
         "timestamp": "2025-10-19T13:54:27.030Z",
         "ratio": 0.8554
+      },
+      {
+        "steam_price": 5.35,
+        "buff_price": 3,
+        "buff_username": "U31052201593",
+        "timestamp": "2025-10-19T14:13:19.810Z",
+        "ratio": 0.6597
       }
     ]
   },
@@ -10177,6 +10184,13 @@
         "buff_username": "Arthur剑心志",
         "timestamp": "2025-10-19T13:54:30.687Z",
         "ratio": 0.8614
+      },
+      {
+        "steam_price": 14.04,
+        "buff_price": 10.8,
+        "buff_username": "U70694814381",
+        "timestamp": "2025-10-19T14:13:23.089Z",
+        "ratio": 0.905
       }
     ]
   },
@@ -16026,6 +16040,13 @@
         "buff_username": "饰品全天24秒发",
         "timestamp": "2025-10-19T13:54:34.713Z",
         "ratio": 0.9104
+      },
+      {
+        "steam_price": 7.34,
+        "buff_price": 5.68,
+        "buff_username": "U48263572606",
+        "timestamp": "2025-10-19T14:13:27.431Z",
+        "ratio": 0.9104
       }
     ]
   },
@@ -20969,6 +20990,13 @@
         "buff_username": "搬砖养男友",
         "timestamp": "2025-10-19T13:54:17.193Z",
         "ratio": 0.9663
+      },
+      {
+        "steam_price": 12.54,
+        "buff_price": 10.2,
+        "buff_username": "男大自用妙发",
+        "timestamp": "2025-10-19T14:13:30.786Z",
+        "ratio": 0.9569
       }
     ]
   },
@@ -25968,6 +25996,13 @@
         "buff_username": "U91737954669",
         "timestamp": "2025-10-19T13:54:23.080Z",
         "ratio": 0.948
+      },
+      {
+        "steam_price": 109.47,
+        "buff_price": 87.58,
+        "buff_username": "打完飞机就发货",
+        "timestamp": "2025-10-19T14:13:52.316Z",
+        "ratio": 0.9412
       }
     ]
   },
@@ -29875,6 +29910,13 @@
         "buff_username": "U13892060407",
         "timestamp": "2025-10-19T13:55:11.041Z",
         "ratio": 0.9299
+      },
+      {
+        "steam_price": 32.21,
+        "buff_price": 22.8,
+        "buff_username": "购买商品出大金",
+        "timestamp": "2025-10-19T14:13:34.966Z",
+        "ratio": 0.8328
       }
     ]
   },
@@ -35247,6 +35289,13 @@
         "buff_username": "U94220350264",
         "timestamp": "2025-10-19T13:01:20.538Z",
         "ratio": 0.9013
+      },
+      {
+        "steam_price": 14.18,
+        "buff_price": 10.37,
+        "buff_username": "U14446459298",
+        "timestamp": "2025-10-19T14:13:48.100Z",
+        "ratio": 0.8604
       }
     ]
   },
@@ -41807,6 +41856,13 @@
         "buff_price": 5.98,
         "buff_username": "U57522151747",
         "timestamp": "2025-10-19T13:01:37.759Z",
+        "ratio": 0.8816
+      },
+      {
+        "steam_price": 7.98,
+        "buff_price": 5.98,
+        "buff_username": "U57522151747",
+        "timestamp": "2025-10-19T14:13:58.276Z",
         "ratio": 0.8816
       }
     ]
@@ -51535,6 +51591,13 @@
         "buff_username": "杜千俞",
         "timestamp": "2025-10-19T13:55:19.767Z",
         "ratio": 0.8648
+      },
+      {
+        "steam_price": 5.84,
+        "buff_price": 4.19,
+        "buff_username": "杜千俞",
+        "timestamp": "2025-10-19T14:14:08.424Z",
+        "ratio": 0.8441
       }
     ]
   },
@@ -55092,6 +55155,13 @@
         "buff_price": 25.59,
         "buff_username": "U99254002796",
         "timestamp": "2025-10-19T13:55:15.655Z",
+        "ratio": 0.9845
+      },
+      {
+        "steam_price": 30.58,
+        "buff_price": 25.59,
+        "buff_username": "U99254002796",
+        "timestamp": "2025-10-19T14:14:05.166Z",
         "ratio": 0.9845
       }
     ]
@@ -64319,6 +64389,13 @@
         "buff_username": "U86193276351",
         "timestamp": "2025-10-19T11:56:21.607Z",
         "ratio": 0.8419
+      },
+      {
+        "steam_price": 13.33,
+        "buff_price": 9.69,
+        "buff_username": "U86193276351",
+        "timestamp": "2025-10-19T14:14:01.359Z",
+        "ratio": 0.8552
       }
     ]
   },
@@ -66833,6 +66910,13 @@
         "buff_username": "霸霸丢我求求了",
         "timestamp": "2025-10-18T14:16:05.853Z",
         "ratio": 1.031
+      },
+      {
+        "steam_price": 1997.07,
+        "buff_price": 1819,
+        "buff_username": "艾尔曾",
+        "timestamp": "2025-10-19T14:13:41.002Z",
+        "ratio": 1.0716
       }
     ]
   },
@@ -74652,6 +74736,21 @@
         "buff_username": "hz7548",
         "timestamp": "2025-10-19T13:54:52.057Z",
         "ratio": 1.0986
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "name": "印花 | Perfect World（全息）| 2024年上海锦标赛",
+    "buff_link": "https://buff.163.com/goods/1114101?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Perfect%20World%20%28Holo%29%20%7C%20Shanghai%202024",
+    "prices": [
+      {
+        "steam_price": 98.99,
+        "buff_price": 89,
+        "buff_username": "psyyCho",
+        "timestamp": "2025-10-19T14:13:44.016Z",
+        "ratio": 1.0577
       }
     ]
   }
