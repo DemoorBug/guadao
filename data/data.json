@@ -25534,6 +25534,13 @@
         "buff_username": "U06244778305",
         "timestamp": "2025-10-19T10:45:50.720Z",
         "ratio": 0.88
+      },
+      {
+        "steam_price": 15.13,
+        "buff_price": 87.8,
+        "buff_username": "U06244778305",
+        "timestamp": "2025-10-19T10:54:38.638Z",
+        "ratio": 6.8271
       }
     ]
   },
@@ -46095,6 +46102,13 @@
         "buff_username": "Veery_J",
         "timestamp": "2025-10-19T10:44:56.356Z",
         "ratio": 0.8642
+      },
+      {
+        "steam_price": 11.46,
+        "buff_price": 60,
+        "buff_username": "Veery_J",
+        "timestamp": "2025-10-19T10:54:35.113Z",
+        "ratio": 6.1595
       }
     ]
   },
