@@ -5710,6 +5710,13 @@
         "buff_username": "哥买我的便宜",
         "timestamp": "2025-10-20T05:19:48.905Z",
         "ratio": 0.8334
+      },
+      {
+        "steam_price": 5.42,
+        "buff_price": 3.79,
+        "buff_username": "王仙子",
+        "timestamp": "2025-10-20T05:35:29.822Z",
+        "ratio": 0.8227
       }
     ]
   },
@@ -11185,6 +11192,13 @@
         "buff_username": "风铃与喵",
         "timestamp": "2025-10-20T05:19:52.033Z",
         "ratio": 0.8527
+      },
+      {
+        "steam_price": 14.97,
+        "buff_price": 10.7,
+        "buff_username": "U27460242896",
+        "timestamp": "2025-10-20T05:35:38.052Z",
+        "ratio": 0.8409
       }
     ]
   },
@@ -17538,6 +17552,13 @@
         "buff_username": "身与浮云无是非",
         "timestamp": "2025-10-20T05:20:00.903Z",
         "ratio": 0.9559
+      },
+      {
+        "steam_price": 7.2,
+        "buff_price": 5.85,
+        "buff_username": "身与浮云无是非",
+        "timestamp": "2025-10-20T05:35:33.833Z",
+        "ratio": 0.9559
       }
     ]
   },
@@ -22985,6 +23006,13 @@
         "buff_username": "小帅的铺子",
         "timestamp": "2025-10-20T05:19:54.936Z",
         "ratio": 0.9649
+      },
+      {
+        "steam_price": 12.9,
+        "buff_price": 10.56,
+        "buff_username": "我忘了回到过去",
+        "timestamp": "2025-10-20T05:35:43.774Z",
+        "ratio": 0.9631
       }
     ]
   },
@@ -38733,6 +38761,13 @@
         "buff_username": "U14196104838",
         "timestamp": "2025-10-20T05:20:22.515Z",
         "ratio": 0.8334
+      },
+      {
+        "steam_price": 14.54,
+        "buff_price": 10.3,
+        "buff_username": "U76199011338",
+        "timestamp": "2025-10-20T05:36:09.598Z",
+        "ratio": 0.8334
       }
     ]
   },
@@ -43032,6 +43067,13 @@
         "buff_username": "平价商品秒发",
         "timestamp": "2025-10-19T21:58:17.400Z",
         "ratio": 0.8531
+      },
+      {
+        "steam_price": 5.06,
+        "buff_price": 3.68,
+        "buff_username": "平价商品秒发",
+        "timestamp": "2025-10-20T05:36:24.745Z",
+        "ratio": 0.8556
       }
     ]
   },
@@ -45672,6 +45714,13 @@
         "buff_username": "U06021305852",
         "timestamp": "2025-10-20T05:20:38.358Z",
         "ratio": 0.8683
+      },
+      {
+        "steam_price": 7.84,
+        "buff_price": 5.89,
+        "buff_username": "U76230636463",
+        "timestamp": "2025-10-20T05:36:17.224Z",
+        "ratio": 0.8839
       }
     ]
   },
@@ -51485,6 +51534,13 @@
         "buff_username": "U78488157294",
         "timestamp": "2025-10-20T05:19:45.308Z",
         "ratio": 0.8566
+      },
+      {
+        "steam_price": 83.17,
+        "buff_price": 59.99,
+        "buff_username": "U78488157294",
+        "timestamp": "2025-10-20T05:35:27.042Z",
+        "ratio": 0.8486
       }
     ]
   },
@@ -56659,6 +56715,13 @@
         "buff_username": "U35798661069",
         "timestamp": "2025-10-20T04:54:58.997Z",
         "ratio": 0.8134
+      },
+      {
+        "steam_price": 5.92,
+        "buff_price": 4.25,
+        "buff_username": "CSGO武器贩卖处",
+        "timestamp": "2025-10-20T05:36:12.999Z",
+        "ratio": 0.8446
       }
     ]
   },
@@ -58900,6 +58963,13 @@
         "buff_username": "U89159643052",
         "timestamp": "2025-10-19T23:58:56.804Z",
         "ratio": 0.8528
+      },
+      {
+        "steam_price": 34.21,
+        "buff_price": 24.4,
+        "buff_username": "U76199011338",
+        "timestamp": "2025-10-20T05:36:00.805Z",
+        "ratio": 0.8391
       }
     ]
   },
@@ -68231,6 +68301,13 @@
         "buff_username": "U76230636463",
         "timestamp": "2025-10-20T05:20:46.215Z",
         "ratio": 0.8117
+      },
+      {
+        "steam_price": 13.9,
+        "buff_price": 9.59,
+        "buff_username": "U76230636463",
+        "timestamp": "2025-10-20T05:36:21.466Z",
+        "ratio": 0.8117
       }
     ]
   },
@@ -70962,6 +71039,13 @@
         "buff_username": "U48300031988",
         "timestamp": "2025-10-20T03:59:55.208Z",
         "ratio": 0.8286
+      },
+      {
+        "steam_price": 13.68,
+        "buff_price": 9.59,
+        "buff_username": "U51338686216",
+        "timestamp": "2025-10-20T05:36:05.140Z",
+        "ratio": 0.8247
       }
     ]
   },
@@ -72875,6 +72959,13 @@
         "buff_username": "U48300031988",
         "timestamp": "2025-10-20T03:59:30.313Z",
         "ratio": 0.9154
+      },
+      {
+        "steam_price": 34.78,
+        "buff_price": 25,
+        "buff_username": "U32062401935",
+        "timestamp": "2025-10-20T05:35:56.441Z",
+        "ratio": 0.8457
       }
     ]
   },
@@ -76202,6 +76293,13 @@
         "buff_username": "U27895826217",
         "timestamp": "2025-10-17T14:58:03.741Z",
         "ratio": 1.0401
+      },
+      {
+        "steam_price": 57.94,
+        "buff_price": 51.9,
+        "buff_username": "Yossan",
+        "timestamp": "2025-10-20T05:35:50.656Z",
+        "ratio": 1.0538
       }
     ]
   },
@@ -82012,6 +82110,28 @@
         "buff_username": "哒哒哒WORLD",
         "timestamp": "2025-10-20T05:19:38.972Z",
         "ratio": 0.9958
+      },
+      {
+        "steam_price": 110.75,
+        "buff_price": 92,
+        "buff_username": "好东西一秒发",
+        "timestamp": "2025-10-20T05:35:21.784Z",
+        "ratio": 0.9773
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "name": "印花 | Virtus.pro（全息）| 2024年哥本哈根锦标赛",
+    "buff_link": "https://buff.163.com/goods/959838?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Virtus.pro%20%28Holo%29%20%7C%20Copenhagen%202024",
+    "prices": [
+      {
+        "steam_price": 66.99,
+        "buff_price": 60.9,
+        "buff_username": "怪獸奥特曼",
+        "timestamp": "2025-10-20T05:35:47.335Z",
+        "ratio": 1.0695
       }
     ]
   }
