@@ -12046,6 +12046,13 @@
         "buff_username": "女大自用自售",
         "timestamp": "2025-10-20T19:14:12.994Z",
         "ratio": 0.8879
+      },
+      {
+        "steam_price": 14.31,
+        "buff_price": 10.9,
+        "buff_username": "东方树叶的小店",
+        "timestamp": "2025-10-20T19:16:36.823Z",
+        "ratio": 0.8961
       }
     ]
   },
@@ -76444,6 +76451,13 @@
         "buff_username": "U53009576037",
         "timestamp": "2025-10-20T03:59:37.139Z",
         "ratio": 0.9015
+      },
+      {
+        "steam_price": 773.2,
+        "buff_price": 640,
+        "buff_username": "林林林林魁",
+        "timestamp": "2025-10-20T19:16:23.176Z",
+        "ratio": 0.9738
       }
     ]
   },
@@ -78914,6 +78928,13 @@
         "buff_username": "U16425456625",
         "timestamp": "2025-10-20T06:53:35.339Z",
         "ratio": 0.8292
+      },
+      {
+        "steam_price": 77.61,
+        "buff_price": 64.87,
+        "buff_username": "U86193276351",
+        "timestamp": "2025-10-20T19:16:05.158Z",
+        "ratio": 0.9833
       }
     ]
   },
@@ -79867,6 +79888,13 @@
         "buff_username": "30秒极速发货货",
         "timestamp": "2025-10-19T04:51:17.280Z",
         "ratio": 0.8171
+      },
+      {
+        "steam_price": 404.47,
+        "buff_price": 295,
+        "buff_username": "U01571155886",
+        "timestamp": "2025-10-20T19:16:31.447Z",
+        "ratio": 0.8581
       }
     ]
   },
@@ -81461,6 +81489,13 @@
         "buff_username": "清仓大甩荬",
         "timestamp": "2025-10-20T16:58:07.257Z",
         "ratio": 0.887
+      },
+      {
+        "steam_price": 46.42,
+        "buff_price": 34.9,
+        "buff_username": "U51383945474",
+        "timestamp": "2025-10-20T19:16:15.684Z",
+        "ratio": 0.8845
       }
     ]
   },
@@ -84784,6 +84819,13 @@
         "buff_username": "没事就喜欢压",
         "timestamp": "2025-10-20T06:52:54.837Z",
         "ratio": 0.8336
+      },
+      {
+        "steam_price": 131,
+        "buff_price": 91.2,
+        "buff_username": "萌新专卖121",
+        "timestamp": "2025-10-20T19:15:54.675Z",
+        "ratio": 0.819
       }
     ]
   },
@@ -87310,6 +87352,13 @@
         "buff_username": "Moon自动发货",
         "timestamp": "2025-10-19T13:22:14.150Z",
         "ratio": 0.9916
+      },
+      {
+        "steam_price": 27.91,
+        "buff_price": 23.4,
+        "buff_username": "速发1谢谢老板",
+        "timestamp": "2025-10-20T19:16:00.891Z",
+        "ratio": 0.9864
       }
     ]
   },
@@ -87376,6 +87425,13 @@
         "buff_username": "U93588176798",
         "timestamp": "2025-10-17T22:20:45.670Z",
         "ratio": 0.8245
+      },
+      {
+        "steam_price": 66.78,
+        "buff_price": 52,
+        "buff_username": "U08912090537",
+        "timestamp": "2025-10-20T19:16:09.563Z",
+        "ratio": 0.9161
       }
     ]
   },
@@ -87654,6 +87710,13 @@
         "buff_username": "U18836153158",
         "timestamp": "2025-10-18T13:59:06.843Z",
         "ratio": 0.9255
+      },
+      {
+        "steam_price": 121.18,
+        "buff_price": 85,
+        "buff_username": "U12216851660",
+        "timestamp": "2025-10-20T19:16:26.070Z",
+        "ratio": 0.8252
       }
     ]
   },
@@ -88127,6 +88190,36 @@
         "buff_username": "迷人的反派ovo",
         "timestamp": "2025-10-20T15:58:16.122Z",
         "ratio": 1.0365
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "name": "名称标签",
+    "buff_link": "https://buff.163.com/goods/35736?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Name%20Tag",
+    "prices": [
+      {
+        "steam_price": 13.74,
+        "buff_price": 10.2,
+        "buff_username": "U70810313102",
+        "timestamp": "2025-10-20T19:16:19.287Z",
+        "ratio": 0.8734
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "name": "反恐精英 3 号武器箱",
+    "buff_link": "https://buff.163.com/goods/34275?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/CS%3AGO%20Weapon%20Case%203",
+    "prices": [
+      {
+        "steam_price": 87.07,
+        "buff_price": 60.6,
+        "buff_username": "IGGWO1",
+        "timestamp": "2025-10-20T19:16:28.793Z",
+        "ratio": 0.8188
       }
     ]
   }
