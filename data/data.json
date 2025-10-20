@@ -5990,6 +5990,13 @@
         "buff_username": "U22311676572",
         "timestamp": "2025-10-20T14:58:41.120Z",
         "ratio": 0.8669
+      },
+      {
+        "steam_price": 5.2,
+        "buff_price": 3.78,
+        "buff_username": "个人卖白天在线",
+        "timestamp": "2025-10-20T15:19:59.555Z",
+        "ratio": 0.8552
       }
     ]
   },
@@ -11745,6 +11752,13 @@
         "buff_username": "非洲贫困户",
         "timestamp": "2025-10-20T14:58:45.371Z",
         "ratio": 0.8653
+      },
+      {
+        "steam_price": 14.75,
+        "buff_price": 10.85,
+        "buff_username": "U58127777590",
+        "timestamp": "2025-10-20T15:19:44.180Z",
+        "ratio": 0.8654
       }
     ]
   },
@@ -18378,6 +18392,13 @@
         "buff_username": "鬼猫科技1号仓",
         "timestamp": "2025-10-20T14:58:48.618Z",
         "ratio": 0.9405
+      },
+      {
+        "steam_price": 7.13,
+        "buff_price": 5.7,
+        "buff_username": "鬼猫科技1号仓",
+        "timestamp": "2025-10-20T15:19:53.755Z",
+        "ratio": 0.9405
       }
     ]
   },
@@ -24105,6 +24126,13 @@
         "buff_username": "买定你发财",
         "timestamp": "2025-10-20T14:58:59.207Z",
         "ratio": 0.9485
+      },
+      {
+        "steam_price": 12.9,
+        "buff_price": 10.3,
+        "buff_username": "面包y",
+        "timestamp": "2025-10-20T15:19:47.521Z",
+        "ratio": 0.9394
       }
     ]
   },
@@ -29853,6 +29881,13 @@
         "buff_username": "U01314311837",
         "timestamp": "2025-10-20T14:58:36.251Z",
         "ratio": 0.9408
+      },
+      {
+        "steam_price": 114.03,
+        "buff_price": 80,
+        "buff_username": "U02932500889",
+        "timestamp": "2025-10-20T15:20:02.823Z",
+        "ratio": 0.8254
       }
     ]
   },
@@ -34397,6 +34432,13 @@
         "buff_username": "U70148210695",
         "timestamp": "2025-10-20T13:09:51.936Z",
         "ratio": 0.8907
+      },
+      {
+        "steam_price": 29.22,
+        "buff_price": 22.9,
+        "buff_username": "U37380223057",
+        "timestamp": "2025-10-20T15:20:23.154Z",
+        "ratio": 0.922
       }
     ]
   },
@@ -44971,6 +45013,13 @@
         "buff_username": "发财簿A",
         "timestamp": "2025-10-20T14:59:12.342Z",
         "ratio": 0.8235
+      },
+      {
+        "steam_price": 5.2,
+        "buff_price": 3.87,
+        "buff_username": "爱玩go的野生",
+        "timestamp": "2025-10-20T15:20:29.854Z",
+        "ratio": 0.8756
       }
     ]
   },
@@ -53942,6 +53991,13 @@
         "buff_username": "安安的小廉价铺",
         "timestamp": "2025-10-20T14:18:41.388Z",
         "ratio": 0.9004
+      },
+      {
+        "steam_price": 74.91,
+        "buff_price": 61,
+        "buff_username": "MADAO666666",
+        "timestamp": "2025-10-20T15:20:26.965Z",
+        "ratio": 0.958
       }
     ]
   },
@@ -59333,6 +59389,13 @@
         "buff_username": "香菇真的臭",
         "timestamp": "2025-10-20T14:58:55.324Z",
         "ratio": 0.8328
+      },
+      {
+        "steam_price": 5.84,
+        "buff_price": 4.24,
+        "buff_username": "巴克队长",
+        "timestamp": "2025-10-20T15:20:34.083Z",
+        "ratio": 0.8541
       }
     ]
   },
@@ -77578,6 +77641,13 @@
         "buff_username": "Jy6666",
         "timestamp": "2025-10-19T14:54:51.306Z",
         "ratio": 1.0179
+      },
+      {
+        "steam_price": 2028.07,
+        "buff_price": 1750,
+        "buff_username": "Lzkiller",
+        "timestamp": "2025-10-20T15:20:14.300Z",
+        "ratio": 1.0152
       }
     ]
   },
@@ -77923,6 +77993,13 @@
         "buff_username": "U79160707240",
         "timestamp": "2025-10-19T04:51:11.872Z",
         "ratio": 1.0751
+      },
+      {
+        "steam_price": 874.13,
+        "buff_price": 754.5,
+        "buff_username": "聚米饰品",
+        "timestamp": "2025-10-20T15:19:39.963Z",
+        "ratio": 1.0155
       }
     ]
   },
@@ -79753,6 +79830,13 @@
         "buff_username": "琉璃南星",
         "timestamp": "2025-10-20T08:02:38.088Z",
         "ratio": 0.8649
+      },
+      {
+        "steam_price": 45.4,
+        "buff_price": 35.48,
+        "buff_username": "U30042388965",
+        "timestamp": "2025-10-20T15:20:19.778Z",
+        "ratio": 0.9194
       }
     ]
   },
@@ -86348,6 +86432,21 @@
         "buff_username": "FasterAccept",
         "timestamp": "2025-10-20T14:59:03.232Z",
         "ratio": 1.084
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "name": "M4A1 消音型 | 黑莲花 (久经沙场)",
+    "buff_link": "https://buff.163.com/goods/956508?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/M4A1-S%20%7C%20Black%20Lotus%20%28Field-Tested%29",
+    "prices": [
+      {
+        "steam_price": 61.51,
+        "buff_price": 53,
+        "buff_username": "寄惹",
+        "timestamp": "2025-10-20T15:20:08.796Z",
+        "ratio": 1.0137
       }
     ]
   }
