@@ -29741,6 +29741,13 @@
         "buff_username": "U02123747044",
         "timestamp": "2025-10-20T14:18:22.413Z",
         "ratio": 0.8672
+      },
+      {
+        "steam_price": 16.07,
+        "buff_price": 85.9,
+        "buff_username": "U87508964477",
+        "timestamp": "2025-10-20T14:37:19.953Z",
+        "ratio": 6.2887
       }
     ]
   },
@@ -86032,6 +86039,21 @@
         "buff_username": "4号捡钱大王",
         "timestamp": "2025-10-20T10:00:23.216Z",
         "ratio": 1.0028
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "name": "印花 | AMKAL ESPORTS（全息）| 2024年哥本哈根锦标赛",
+    "buff_link": "https://buff.163.com/goods/960169?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20AMKAL%20ESPORTS%20%28Holo%29%20%7C%20Copenhagen%202024",
+    "prices": [
+      {
+        "steam_price": 24.67,
+        "buff_price": 162,
+        "buff_username": "FasterAccept",
+        "timestamp": "2025-10-20T14:37:25.656Z",
+        "ratio": 7.7255
       }
     ]
   }
