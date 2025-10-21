@@ -6564,6 +6564,13 @@
         "buff_username": "U92754295806",
         "timestamp": "2025-10-21T09:54:45.051Z",
         "ratio": 0.8394
+      },
+      {
+        "steam_price": 5.2,
+        "buff_price": 3.72,
+        "buff_username": "sdy0603",
+        "timestamp": "2025-10-21T10:21:05.294Z",
+        "ratio": 0.8416
       }
     ]
   },
@@ -12921,6 +12928,13 @@
         "buff_username": "U55092285852",
         "timestamp": "2025-10-21T09:54:49.446Z",
         "ratio": 0.8571
+      },
+      {
+        "steam_price": 14.52,
+        "buff_price": 10.89,
+        "buff_username": "U41704703980",
+        "timestamp": "2025-10-21T10:21:09.729Z",
+        "ratio": 0.8824
       }
     ]
   },
@@ -20128,6 +20142,13 @@
         "buff_username": "多喝点滴",
         "timestamp": "2025-10-21T09:54:56.854Z",
         "ratio": 0.9675
+      },
+      {
+        "steam_price": 6.98,
+        "buff_price": 5.72,
+        "buff_username": "U32885158973",
+        "timestamp": "2025-10-21T10:21:14.291Z",
+        "ratio": 0.9641
       }
     ]
   },
@@ -26429,6 +26450,13 @@
         "buff_username": "U22999172992",
         "timestamp": "2025-10-21T09:54:53.806Z",
         "ratio": 0.9428
+      },
+      {
+        "steam_price": 13.1,
+        "buff_price": 10.45,
+        "buff_username": "卖军火的小男氦",
+        "timestamp": "2025-10-21T10:21:18.657Z",
+        "ratio": 0.9385
       }
     ]
   },
@@ -32758,6 +32786,13 @@
         "buff_username": "U26636250543",
         "timestamp": "2025-10-21T09:55:34.904Z",
         "ratio": 0.8909
+      },
+      {
+        "steam_price": 113.42,
+        "buff_price": 86.59,
+        "buff_username": "U26636250543",
+        "timestamp": "2025-10-21T10:21:00.768Z",
+        "ratio": 0.8982
       }
     ]
   },
@@ -37862,6 +37897,13 @@
         "buff_username": "你这是在为难我",
         "timestamp": "2025-10-21T09:55:47.374Z",
         "ratio": 0.9372
+      },
+      {
+        "steam_price": 31.68,
+        "buff_price": 23.2,
+        "buff_username": "ChoMiyeona",
+        "timestamp": "2025-10-21T10:21:46.573Z",
+        "ratio": 0.8616
       }
     ]
   },
@@ -52357,6 +52399,13 @@
         "buff_username": "U14567762314",
         "timestamp": "2025-10-21T09:00:52.087Z",
         "ratio": 0.8694
+      },
+      {
+        "steam_price": 7.83,
+        "buff_price": 6.07,
+        "buff_username": "小罗士多",
+        "timestamp": "2025-10-21T10:21:49.730Z",
+        "ratio": 0.912
       }
     ]
   },
@@ -69863,6 +69912,13 @@
         "buff_username": "U59266856165",
         "timestamp": "2025-10-21T07:57:31.397Z",
         "ratio": 0.9124
+      },
+      {
+        "steam_price": 32.54,
+        "buff_price": 25.1,
+        "buff_username": "ChoMiyeona",
+        "timestamp": "2025-10-21T10:21:42.563Z",
+        "ratio": 0.9075
       }
     ]
   },
@@ -88025,6 +88081,13 @@
         "buff_username": "LYHswag",
         "timestamp": "2025-10-20T06:53:04.079Z",
         "ratio": 1.0531
+      },
+      {
+        "steam_price": 58.95,
+        "buff_price": 51.29,
+        "buff_username": "无稽ya",
+        "timestamp": "2025-10-21T10:21:39.262Z",
+        "ratio": 1.0236
       }
     ]
   },
@@ -91052,6 +91115,13 @@
         "buff_username": "U53513557618",
         "timestamp": "2025-10-21T09:00:28.520Z",
         "ratio": 1.0145
+      },
+      {
+        "steam_price": 730.42,
+        "buff_price": 614.9,
+        "buff_username": "炼都可以炼",
+        "timestamp": "2025-10-21T10:21:24.734Z",
+        "ratio": 0.9904
       }
     ]
   },
@@ -92974,6 +93044,13 @@
         "buff_username": "便宜好货多收",
         "timestamp": "2025-10-21T09:00:38.000Z",
         "ratio": 0.8876
+      },
+      {
+        "steam_price": 7.9,
+        "buff_price": 5.89,
+        "buff_username": "刘德华演唱会",
+        "timestamp": "2025-10-21T10:21:55.197Z",
+        "ratio": 0.8771
       }
     ]
   },
@@ -94323,6 +94400,13 @@
         "buff_username": "MoKaiXiang",
         "timestamp": "2025-10-21T09:55:31.426Z",
         "ratio": 1.0552
+      },
+      {
+        "steam_price": 14.88,
+        "buff_price": 13.52,
+        "buff_username": "JakinChou",
+        "timestamp": "2025-10-21T10:21:58.479Z",
+        "ratio": 1.0689
       }
     ]
   },
@@ -95164,6 +95248,51 @@
         "buff_username": "1dao5353",
         "timestamp": "2025-10-21T09:00:35.127Z",
         "ratio": 0.9859
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "name": "地面叛军 | 精锐分子",
+    "buff_link": "https://buff.163.com/goods/774881?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/Ground%20Rebel%20%20%7C%20Elite%20Crew",
+    "prices": [
+      {
+        "steam_price": 148.3,
+        "buff_price": 120,
+        "buff_username": "Edwinnn",
+        "timestamp": "2025-10-21T10:20:56.867Z",
+        "ratio": 0.952
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "name": "M4A1 消音型 | 闪回 (崭新出厂)",
+    "buff_link": "https://buff.163.com/goods/35202?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/M4A1-S%20%7C%20Flashback%20%28Factory%20New%29",
+    "prices": [
+      {
+        "steam_price": 477.74,
+        "buff_price": 400,
+        "buff_username": "G大调咚咚",
+        "timestamp": "2025-10-21T10:21:30.077Z",
+        "ratio": 0.985
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "name": "AWP | 印花集 (崭新出厂)",
+    "buff_link": "https://buff.163.com/goods/1116136?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/AWP%20%7C%20Printstream%20%28Factory%20New%29",
+    "prices": [
+      {
+        "steam_price": 3836.76,
+        "buff_price": 3200,
+        "buff_username": "hqvvv",
+        "timestamp": "2025-10-21T10:21:33.678Z",
+        "ratio": 0.9812
       }
     ]
   }
