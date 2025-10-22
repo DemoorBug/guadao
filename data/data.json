@@ -7271,6 +7271,13 @@
         "buff_username": "U76788601797",
         "timestamp": "2025-10-22T09:01:01.509Z",
         "ratio": 0.86
+      },
+      {
+        "steam_price": 5.06,
+        "buff_price": 3.7,
+        "buff_username": "U68625415668",
+        "timestamp": "2025-10-22T09:21:57.702Z",
+        "ratio": 0.8603
       }
     ]
   },
@@ -14335,6 +14342,13 @@
         "buff_username": "苦瓜在线秒发1",
         "timestamp": "2025-10-22T09:01:04.573Z",
         "ratio": 0.9356
+      },
+      {
+        "steam_price": 13.46,
+        "buff_price": 10,
+        "buff_username": "U53988536550",
+        "timestamp": "2025-10-22T09:22:03.397Z",
+        "ratio": 0.874
       }
     ]
   },
@@ -22249,6 +22263,13 @@
         "buff_username": "买辣椒也用券i",
         "timestamp": "2025-10-22T09:01:07.859Z",
         "ratio": 0.9829
+      },
+      {
+        "steam_price": 7.05,
+        "buff_price": 5.86,
+        "buff_username": "U32719429164",
+        "timestamp": "2025-10-22T09:22:06.160Z",
+        "ratio": 0.9779
       }
     ]
   },
@@ -29257,6 +29278,13 @@
         "buff_username": "U70682947492",
         "timestamp": "2025-10-22T09:00:56.909Z",
         "ratio": 0.9766
+      },
+      {
+        "steam_price": 12.82,
+        "buff_price": 10.6,
+        "buff_username": "玛卡的玩具",
+        "timestamp": "2025-10-22T09:21:51.181Z",
+        "ratio": 0.9727
       }
     ]
   },
@@ -36265,6 +36293,13 @@
         "buff_username": "U72317279992",
         "timestamp": "2025-10-22T09:00:53.745Z",
         "ratio": 0.89
+      },
+      {
+        "steam_price": 116.09,
+        "buff_price": 87,
+        "buff_username": "U85709441285",
+        "timestamp": "2025-10-22T09:22:35.268Z",
+        "ratio": 0.8817
       }
     ]
   },
@@ -53889,6 +53924,13 @@
         "buff_username": "发财簿A",
         "timestamp": "2025-10-22T09:01:50.290Z",
         "ratio": 0.9463
+      },
+      {
+        "steam_price": 5.06,
+        "buff_price": 4.08,
+        "buff_username": "发财簿A",
+        "timestamp": "2025-10-22T09:22:41.956Z",
+        "ratio": 0.9486
       }
     ]
   },
@@ -65191,6 +65233,13 @@
         "buff_username": "U39016109186",
         "timestamp": "2025-10-22T09:01:27.169Z",
         "ratio": 0.8351
+      },
+      {
+        "steam_price": 78.06,
+        "buff_price": 59,
+        "buff_username": "U39016109186",
+        "timestamp": "2025-10-22T09:22:26.980Z",
+        "ratio": 0.8892
       }
     ]
   },
@@ -71841,6 +71890,13 @@
         "buff_price": 4.35,
         "buff_username": "见之不忘QAQ",
         "timestamp": "2025-10-22T09:01:14.150Z",
+        "ratio": 0.8459
+      },
+      {
+        "steam_price": 6.05,
+        "buff_price": 4.35,
+        "buff_username": "U48508119011",
+        "timestamp": "2025-10-22T09:22:11.874Z",
         "ratio": 0.8459
       }
     ]
@@ -87152,6 +87208,13 @@
         "buff_username": "U51671193765",
         "timestamp": "2025-10-22T09:01:47.554Z",
         "ratio": 0.8507
+      },
+      {
+        "steam_price": 13.18,
+        "buff_price": 9.52,
+        "buff_username": "玩偶姐姐",
+        "timestamp": "2025-10-22T09:22:30.840Z",
+        "ratio": 0.8498
       }
     ]
   },
@@ -101157,6 +101220,13 @@
         "buff_username": "萌新专卖121",
         "timestamp": "2025-10-20T19:15:54.675Z",
         "ratio": 0.819
+      },
+      {
+        "steam_price": 128.77,
+        "buff_price": 99,
+        "buff_username": "U72992967309",
+        "timestamp": "2025-10-22T09:22:19.147Z",
+        "ratio": 0.9045
       }
     ]
   },
@@ -103082,6 +103152,13 @@
         "buff_username": "一分钟内回",
         "timestamp": "2025-10-22T09:01:31.137Z",
         "ratio": 0.8955
+      },
+      {
+        "steam_price": 7.76,
+        "buff_price": 5.92,
+        "buff_username": "一分钟内回",
+        "timestamp": "2025-10-22T09:21:54.599Z",
+        "ratio": 0.8975
       }
     ]
   },
@@ -104662,6 +104739,13 @@
         "buff_username": "闪电发货kennyS",
         "timestamp": "2025-10-22T05:57:09.214Z",
         "ratio": 1.142
+      },
+      {
+        "steam_price": 15.03,
+        "buff_price": 14.14,
+        "buff_username": "一分钟内回",
+        "timestamp": "2025-10-22T09:22:39.265Z",
+        "ratio": 1.1068
       }
     ]
   },
@@ -106098,6 +106182,36 @@
         "buff_username": "山止川行",
         "timestamp": "2025-10-22T09:01:23.699Z",
         "ratio": 1.052
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "name": "AK-47 | 红线 (久经沙场)",
+    "buff_link": "https://buff.163.com/goods/33960?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Redline%20%28Field-Tested%29",
+    "prices": [
+      {
+        "steam_price": 312.6,
+        "buff_price": 247.5,
+        "buff_username": "U49139556532",
+        "timestamp": "2025-10-22T09:22:15.714Z",
+        "ratio": 0.9315
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "name": "AK-47 | 轨道 Mk01 (崭新出厂)",
+    "buff_link": "https://buff.163.com/goods/33940?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Orbit%20Mk01%20%28Factory%20New%29",
+    "prices": [
+      {
+        "steam_price": 1055.1,
+        "buff_price": 878.3,
+        "buff_username": "她说我的枪够快",
+        "timestamp": "2025-10-22T09:22:22.980Z",
+        "ratio": 0.9793
       }
     ]
   }
