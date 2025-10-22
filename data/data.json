@@ -7110,6 +7110,13 @@
         "buff_username": "U38084612914",
         "timestamp": "2025-10-22T03:58:17.358Z",
         "ratio": 0.8218
+      },
+      {
+        "steam_price": 5.27,
+        "buff_price": 3.7,
+        "buff_username": "緒山真尋灬",
+        "timestamp": "2025-10-22T04:22:51.752Z",
+        "ratio": 0.826
       }
     ]
   },
@@ -14013,6 +14020,13 @@
         "buff_username": "U01065703633",
         "timestamp": "2025-10-22T03:58:25.846Z",
         "ratio": 0.8972
+      },
+      {
+        "steam_price": 13.67,
+        "buff_price": 10.7,
+        "buff_username": "急用吃饭",
+        "timestamp": "2025-10-22T04:22:55.646Z",
+        "ratio": 0.9209
       }
     ]
   },
@@ -21766,6 +21780,13 @@
         "buff_username": "U00884396947",
         "timestamp": "2025-10-22T03:58:28.873Z",
         "ratio": 0.949
+      },
+      {
+        "steam_price": 7.34,
+        "buff_price": 5.8,
+        "buff_username": "U66236152508",
+        "timestamp": "2025-10-22T04:22:59.431Z",
+        "ratio": 0.9296
       }
     ]
   },
@@ -28613,6 +28634,13 @@
         "buff_username": "多刺猕猴桃",
         "timestamp": "2025-10-22T03:58:32.958Z",
         "ratio": 0.9608
+      },
+      {
+        "steam_price": 12.89,
+        "buff_price": 10.37,
+        "buff_username": "MoMenT",
+        "timestamp": "2025-10-22T04:23:32.919Z",
+        "ratio": 0.9465
       }
     ]
   },
@@ -41054,6 +41082,13 @@
         "buff_username": "我爱玩原神嘻嘻",
         "timestamp": "2025-10-22T03:58:36.475Z",
         "ratio": 0.8585
+      },
+      {
+        "steam_price": 32.76,
+        "buff_price": 23.1,
+        "buff_username": "公子无双呀",
+        "timestamp": "2025-10-22T04:23:13.473Z",
+        "ratio": 0.8296
       }
     ]
   },
@@ -70449,6 +70484,13 @@
         "buff_username": "U03493200766",
         "timestamp": "2025-10-22T03:58:21.784Z",
         "ratio": 0.831
+      },
+      {
+        "steam_price": 6.05,
+        "buff_price": 4.35,
+        "buff_username": "纯猛",
+        "timestamp": "2025-10-22T04:23:28.961Z",
+        "ratio": 0.8459
       }
     ]
   },
@@ -73068,6 +73110,13 @@
         "buff_username": "凌晨秒收发",
         "timestamp": "2025-10-21T23:45:11.141Z",
         "ratio": 0.8875
+      },
+      {
+        "steam_price": 31.98,
+        "buff_price": 24.5,
+        "buff_username": "公子无双呀",
+        "timestamp": "2025-10-22T04:23:25.382Z",
+        "ratio": 0.9013
       }
     ]
   },
@@ -80360,6 +80409,13 @@
         "buff_username": "U35449494291",
         "timestamp": "2025-10-22T03:58:56.869Z",
         "ratio": 0.8273
+      },
+      {
+        "steam_price": 44.51,
+        "buff_price": 31.5,
+        "buff_username": "U31276783544",
+        "timestamp": "2025-10-22T04:23:21.524Z",
+        "ratio": 0.8326
       }
     ]
   },
@@ -85402,6 +85458,13 @@
         "buff_username": "儿子割包皮急出",
         "timestamp": "2025-10-22T03:59:15.652Z",
         "ratio": 0.8522
+      },
+      {
+        "steam_price": 13.46,
+        "buff_price": 9.73,
+        "buff_username": "U31276783544",
+        "timestamp": "2025-10-22T04:23:17.598Z",
+        "ratio": 0.8505
       }
     ]
   },
@@ -92973,6 +93036,13 @@
         "buff_username": "U49437349044",
         "timestamp": "2025-10-21T11:55:07.014Z",
         "ratio": 0.9846
+      },
+      {
+        "steam_price": 953.75,
+        "buff_price": 815.5,
+        "buff_username": "U49904066231",
+        "timestamp": "2025-10-22T04:22:46.096Z",
+        "ratio": 1.0059
       }
     ]
   },
@@ -101495,6 +101565,13 @@
         "buff_username": "捡垃圾愉快",
         "timestamp": "2025-10-22T03:58:42.526Z",
         "ratio": 1.0303
+      },
+      {
+        "steam_price": 718.14,
+        "buff_price": 590,
+        "buff_username": "Hitagi0v0",
+        "timestamp": "2025-10-22T04:23:06.855Z",
+        "ratio": 0.9665
       }
     ]
   },
@@ -103206,6 +103283,13 @@
         "buff_username": "U87417837486",
         "timestamp": "2025-10-21T09:54:38.671Z",
         "ratio": 0.9505
+      },
+      {
+        "steam_price": 566.51,
+        "buff_price": 415,
+        "buff_username": "U98797392897",
+        "timestamp": "2025-10-22T04:22:38.518Z",
+        "ratio": 0.8618
       }
     ]
   },
@@ -103529,6 +103613,51 @@
         "buff_username": "一间小店丶",
         "timestamp": "2025-10-22T01:28:00.024Z",
         "ratio": 0.8303
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "name": "M4A4 | 沙漠精英 (崭新出厂)",
+    "buff_link": "https://buff.163.com/goods/35276?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/M4A4%20%7C%20Desert-Strike%20%28Factory%20New%29",
+    "prices": [
+      {
+        "steam_price": 1993.89,
+        "buff_price": 1786,
+        "buff_username": "我的磨损低又低",
+        "timestamp": "2025-10-22T04:22:42.410Z",
+        "ratio": 1.0538
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "name": "M4A4 | 黑色魅影 (久经沙场)",
+    "buff_link": "https://buff.163.com/goods/45262?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/M4A4%20%7C%20Neo-Noir%20%28Field-Tested%29",
+    "prices": [
+      {
+        "steam_price": 130.34,
+        "buff_price": 100,
+        "buff_username": "价值小店",
+        "timestamp": "2025-10-22T04:23:03.436Z",
+        "ratio": 0.9026
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "name": "M4A4 | 活色生香 (崭新出厂)",
+    "buff_link": "https://buff.163.com/goods/857690?from=market#tab=selling",
+    "link": "https://steamcommunity.com/market/listings/730/M4A4%20%7C%20In%20Living%20Color%20%28Factory%20New%29",
+    "prices": [
+      {
+        "steam_price": 2985.74,
+        "buff_price": 2578,
+        "buff_username": "我能撞撞你吗",
+        "timestamp": "2025-10-22T04:23:10.869Z",
+        "ratio": 1.0158
       }
     ]
   }
